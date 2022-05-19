@@ -1,11 +1,11 @@
 # 1일 1커밋 나도 가보자구
 
-## ✨ Contributing
+## intro this site
 1일 1커밋
 코드소스 및 설명첨부
 
 
-## 🔥 Repository Maintainer
+##  Repository Maintainer
 
 
 | 이름   | Nickname | Github                               | kakaoTalk |
