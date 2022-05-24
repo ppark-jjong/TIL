@@ -1,8 +1,7 @@
-package day2;
 import java.util.Scanner;
 public interface IGameFrame {
 	 public <T> T computerSelect();
-	    public <T> T userSelect();
+	 public <T> T userSelect();
 
 	    public boolean gameAct();
 	    
