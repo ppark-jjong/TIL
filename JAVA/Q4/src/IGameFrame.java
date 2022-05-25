@@ -3,7 +3,7 @@ public interface IGameFrame {
 	 public <T> T computerSelect();
 	 public <T> T userSelect();
 
-	    public boolean gameAct();
+	 public boolean gameAct();
 	    
 	    default void loseWinOut(boolean loseWin){//이렇게 인터페이스 안에서 지정 할 수도 있음
 	        if (loseWin)
