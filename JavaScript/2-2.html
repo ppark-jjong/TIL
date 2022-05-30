@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("A학생의 지출내역","<br>");
+        var a = 3000;
+        document.write("교통비 지출:" ,a,"<br>");
+        var b = 6000;
+        document.write("식비 지출:" ,b,"<br>");
+        var c = 3000;
+        document.write("음료비 지출:" ,c,"<br>");
+        var total = a+b+c
+        var result = total>10000 ? total-10000 + "원 초과": "돈 관리 잘했어요!" ;
+        document.write(result);
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<script>
+    window.onload = function(){
+        var p = document.getElementById("mp");//mp라는 아이디를 가진 요소를 변수에 저장
+        p.addEventListener("mouseover", over); //마우스 오버할때 over라는 이름을 가진 이벤트 리스너를 실행시켜라
+        p.addEventListener("mouseout", out);
+
+        function over(){
+            p.style.backgroundColor = "yellowgreen";
+        }
+        function out(){
+            p.style.backgroundColor = "white";
+        }
+
+    }
+</script>
+</head>
+<body>
+    <h1>EVENT</h1>
+    <p id="mp">마우스를 욜려보세요</p>
+</body>

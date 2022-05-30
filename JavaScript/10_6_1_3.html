@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Document</title>
+        <script>
+        window.onload = function(){
+        // 배열로 문서 객체를 가져온다.
+        var headers = document.getElementsByTagName("h1"); //같은태그에 해당하는 걸 다 가져와 배열로 저장
+        // 문서 객체의 속성 변경(innerHTML : 내부 글자 조작)
+        for (var i=0; i<headers.length; i++){
+        headers[i].innerHTML = 'HEADER' + i + ' with getElementsByTagName()';
+        }
+        }
+        </script>
+        </head>
+        <body>
+        <h1>HEADER1</h1>
+        <h1>HEADER2</h1>
+        </body>
+</html>

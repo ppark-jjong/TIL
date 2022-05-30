@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            var inner = document.getElementById("p1");
+            var out = document.getElementById("p2");
+            inner.addEventListener("click", plusStar);
+            out.addEventListener("click", outStar);
+
+            function plusStar(){
+                var star = 5;
+                for(var i = 0; i<star; i++){
+                for (var k = 0; k<=i; k++){
+                       innerHTML += "*";
+                    }
+                document.write('<br>');
+                }
+            }
+            function outStar(){
+                inner.removeEventListener("click", plusStar);
+            }
+            document.body.appendChild(inner);
+            document.body.appendChild(out);
+                
+    }
+        
+        
+    </script>
+</head>
+
+<body>
+    <h1>별 출력하기</h1>
+    <button id="p1">출력</button>
+    <button id="p2">삭제</button>
+</body>
+</html>

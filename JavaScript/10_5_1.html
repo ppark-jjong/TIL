@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        /*window.open("https://www.naver.com/", "naver", "width=850, height=500, left=50, top=70");
+        창이 두개 뜨는데 맨처음 창은 코드를 작성한 창 뒤에 창은 open()함수로 연 창
+        새 창의 넒이가 width=850, height=500
+        띄우려는 위치가 left=50, top=70*/
+        var child = window.open("", "child", "width = 300, height=200");
+
+        child.document.write("<h1>This is Child Window</h1>");
+        child.moveTo(300,30);
+
+        var time = setInterval(function(){
+                child.moveBy(20 , 20); //1초마다 상대적 이동
+        }, 1000);
+        
+        setTimeout(function(){
+            clearInterval(time); //20초 뒤에 time 함수 종료하라
+        }, 20000);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

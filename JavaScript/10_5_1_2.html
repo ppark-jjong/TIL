@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<script>
+        var child = window.open("", "child", "width = 300, height=200");
+
+    child.document.write("<button onclick = window.close()> 종료 </button>"); //새창에 종료버튼을 생성하고 종료버튼 클릭시 새창 닫아라
+    child.moveTo(300,100);
+
+    </script>
+
+</head>
+</html> 
