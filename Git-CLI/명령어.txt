@@ -18,7 +18,6 @@ git pull = git fetch + git merge
 
 git config --global 옵션명 : git의 옵션 설정
 git add 파일이름 : 파일이름을 추적한다(tracked상태)
-git reset 파일이름 : 스테이지 영역에 있는 파일을 스테이지에서 내린다(untracked상태)
 cat 파일이름 : 파일이름 안에 있는 내용을 보여준다.
 git commit : 하게되면 비주얼 스튜디오가 켜지는데 커밋 메세지 입력 후 저장하고 닫으면 커밋메세지까지 저장됨
 git commit -a : 스테이징 없이 바로 커밋 (add 없이)
@@ -41,7 +40,6 @@ git merge 브랜치이름 : 브랜치이름을 병합한다.(병합 커밋이 �
 git rebase 브랜치이름 : 내 브랜치를 브랜치이름에 재배치시킨다.
 git branch -d 브랜치이름 : 브랜치이름을 삭제시킨다.(HEAD브랜치나 병합되지 않은 브랜치는 삭제 X)
 git branch -D 브랜치이름 : 브랜치이름을 강제로 삭제시킨다. 
-git reset --hard 이동할커밋체크섬(HEAD~2) : 커밋을 되돌린다. (HEAD~2 : 2번째 커밋으로 돌아간다 / HEAD^2 두번째 부모 즉 현재커밋에서의 두단계 전을 가르킨다. 병합커밋시 둘이상의 부모가 존재할때 유용)
 git tag -a -m 메세지 태그이름 : 태그이름이라는 태그를 생성한다. 메세지와 태그 이름은 필수이다.
 git push 원격저장소별명 브랜치이름 : 원격저장소에 태그이름을 푸쉬한다.
 git merge --abort : merge 취소
@@ -50,6 +48,29 @@ git reset --(hard, mixed, soft) <커밋체크섬> : 모두 unracked 파일은 �
 	hard : 현재브랜치(HEAD), stage, 워킹트리까지 다 초기화
 	mixed : 워킹트리는 그대로 둠, 현재브랜치(HEAD), stage, 초기화
 	soft : 현재브랜치만 초기화
+	커밋체크섬을 넣어준다면 리셋한걸 다시 되돌려준다 즉 지운걸 복구 시켜줌 커밋체크섬이나, 브랜치 번호 ex)HEAD@{4}
+(예를 들어 하나의 커밋 이전단계로 reset했다가 다시 그 커밋을 보고싶으면 이 커밋의 체크섬을 넣어라)
+git reset --hard 이동할커밋체크섬(HEAD~2) : 커밋을 되돌린다. (HEAD~2 : 2번째 이전 커밋으로 돌아간다 / HEAD^2 두번째 부모 병합했을 때 다른 부모 브랜치로 이동하기 위해)
+git reset 파일이름 : 스테이지 영역에 있는 파일을 스테이지에서 내린다(untracked상태)
+git commit --amend : HEAD가 가르키는 커밋을 수정 
+git diff [a] [b] : a 저장소를 토대로 b 저장소에 추가된 내용의 차이를 보여줌 옵션을 생략하면 아직 스테이지에 추가되지않은 변경사항을 보여줌 (이미 추적된 파일만가능) 
+git diff --check : 공백문자의 변경사항까지 보여줌
+git add --patch <파일명>: 추적된 파일의 경우 원하는 부분만 커밋 가능 
+	파일명 :   y : 현재 변경사항을 스테이징 함
+		n : 현재 변경사항을 스테이징 하지 않음
+		e : 직접 편집
+		q : 변경사항 무시 후 종료
+git stash <-u> : .git/refs 폴더 안에 stash라고 새로운 파일이 생기고 그 파일에 임시저장됨 저장된 파일은 push 할 수 없다.< -u 옵션 사용시 untracked 파일도 임시저장가능>
+	stash pop <stash 객체> : drop + apply 이며, 객체를 다시 워킹트리에 반영하고 스택에 저장된 stash 객체는 삭제
+	stash drop <stash 객체> : 지정한 stash 객체 삭제	
+	stash apply <stash 객체> : 워킹트리에 반영하지만, 객체는 삭제되지 않음
+	stash clear : 스택의 모든 stash 객체 삭제
+	stash branch <stash 객체> : 마지막 체크아웃된 커밋에 stash 내용을 반영해서 새로운 브랜치를 만듦
+git cherry-pick <커밋 체크섬> : 선언된 하나의커밋을 가져와서 합친다.ㄴ
+git reflog : 작업 이력을 다보여준다 log 같은 경우는 현재 commit 이력을보여주면 reflog는 리셋 된 상태작업까지 모두 보여줌
+
+
+
 
 
 내부동작원리(해쉬코드로 조작)
