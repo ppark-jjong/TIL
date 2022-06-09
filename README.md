@@ -18,4 +18,4 @@
 
 | 이름   | Nickname | Github                               | kakaoTalk |
 | ------ | -------- | ------------------------------------ | --------- |
-| 유재학 | Yuhahak | [@Yuhahak](https://github.com/Yuhahak)) | dbwogkr1214 |
+| 유재학 | Yuhahak | ([@Yuhahak](https://github.com/Yuhahak)) | dbwogkr1214 |
