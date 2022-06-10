@@ -1,60 +1,84 @@
-package Homeclass;
-import java.util.*;
-
+import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Shopping {
-	
-	Scanner ex = new Scanner(System.in);
-	LinkedList<Cart> carts= new LinkedList<Cart>();
-	private Item Item;
+    Scanner scanner = new Scanner(System.in);
+    LinkedList<Cart> cartArray = new LinkedList<Cart>();
 
-	public void shoppingMenu() {
-		System.out.println("1. Ä«µåÀÓ´ë \n 2. Ä«Æ® ¹Ý³³ \n 3. ¼îÇÎÁ¾·á \n µ¿ÀÛ ÀÔ·Â : ");
-		int a = ex.nextInt();
-		
-		if(a==1)
-			rentCart();
-		else if(a==2) {
-			System.out.println("¹Ý³³ÇÏ´Â »ç¿ëÀÚ ÀÌ¸§À» ÀÔ·Â>>");
-			String name = ex.next();
-			for(int i =0; i<carts.size(); i++) {
-				Cart cart1 = carts.get(i);
-				String name1 = cart1.getName();
-				if(name == name1) {
-				returnCart(cart1);}
-			}
-		}
-		else {
-			System.out.println("¼îÇÎÀ» Á¾·áÇÕ´Ï´Ù.");
-		}
-	}
+    public LinkedList<Cart> getCartArray() {
+        return cartArray;
+    }
 
-	public Cart rentCart() {//»ç¿ëÀÚ ÀÌ¸§¿¡ µû¸¥ °´Ã¼¸¦ ¹ÝÈ¯
-		System.out.print("(ÀÓ´ë)»ç¿ëÀÚ ÀÌ¸§ ÀÔ·Â >>");
-		String name = ex.next();
-		Cart cart = new Cart(name);
-		carts.add(cart); //»ç¿ëÀÚ ÀÌ¸§À¸·Î °´Ã¼¸¦ »ý¼ºÇÏ°í ±× °´Ã¼¸¦ ¹è¿­¿¡ Ãß°¡
-		return cart;
-	}
-	public void returnCart(Cart cart) {
-		for(int i =0; i<carts.size();i++) {
-			Cart cart1 = carts.get(i);
-			if(cart == cart1)
-				carts.remove(cart);
-	}
-	}
-	public void cartMenu(Cart cart) {//·»Æ®Ä«Æ® ¸Þ¼­µå·Î ¹ÞÀº °´Ã¼¸¦ »ç¿ëÇØ¾ßÇÑ´Ù.
-		System.out.println("------------------------ \n 1. Ä«Æ®¿¡ »óÇ° Ãß°¡ \n 2. Ä«Æ®¿¡ ¼ö·® Ãß°¡ \n 3. Ä«Æ® »óÇ° Á¦°Å \n 4. Ä«Æ® »óÇ° Ãâ·Â \n 5. Ä«Æ® °ü·Ã µ¿ÀÛ Á¾·á \n Ä«µå µ¿ÀÛ ÀÔ·Â : ");
-		int num = ex.nextInt();
-		if(num==1) {
-			
-		}
-	}
-	public void cartActionAdd(Cart cart) {
-		carts.add(cart.addCart(Item item));
-	
-	}
-	public void cartAction()
-	{
-		}
-	}
+    public int shoppingMenu() {
+        System.out.print("--------------------\n1. ì¹´íŠ¸ ìž„ëŒ€\n2. ì¹´ë“œ ë°˜ë‚©\n3. ì‡¼í•‘ ì¢…ë£Œ\në™ìž‘ ìž…ë ¥ : ");
+        return scanner.nextInt();
+    }
+
+    public Cart rentCart() {
+        System.out.print("--------------------\n(ìž„ëŒ€)ì‚¬ìš©ìž ì´ë¦„ ìž…ë ¥ : ");
+        String name = scanner.next();
+
+        for (Cart cart : cartArray) {
+            if (cart.getName().equals(name)) {
+                return cart;
+            }
+        }
+
+        Cart cart = new Cart(name);
+        cartArray.add(cart);
+        return cart;
+    }
+
+    public void returnCart() {
+        System.out.print("--------------------\n(ë°˜ë‚©)ì‚¬ìš©ìž ì´ë¦„ ìž…ë ¥ : ");
+        String name = scanner.next();
+
+        for (Cart cart : cartArray) {
+            if (cart.getName().equals(name)){
+                cartArray.remove(cart);
+                break;
+            }
+        }
+    }
+
+    public int cartMenu() {
+        System.out.print("--------------------\n1. ì¹´íŠ¸ì— ìƒí’ˆ ì¶”ê°€\n2. ì¹´íŠ¸ì— ìˆ˜ëŸ‰ ë³€ê²½\n3. ì¹´íŠ¸ ìƒí’ˆ ì œê±°\n4. ì¹´íŠ¸ ìƒí’ˆ ì¶œë ¥\n5. ì¹´íŠ¸ ê´€ë ¨ ë™ìž‘ ì¢…ë£Œ\nì¹´íŠ¸ ë™ìž‘ ìž…ë ¥ : ");
+        return scanner.nextInt();
+    }
+
+    public void cartAction(Cart cart, int cartMenuSelect){
+        if (cartMenuSelect == 1) {
+            System.out.println("--------------------\nì¶”ê°€í•  ìƒí’ˆ ì •ë³´ ìž…ë ¥");
+            System.out.print("ìƒí’ˆ ì´ë¦„ : ");
+            String itemName = scanner.next();
+            System.out.print("ìƒí’ˆ ê°€ê²© : ");
+            int itemPrice = scanner.nextInt();
+            System.out.print("ìƒí’ˆ ìˆ˜ëŸ‰ : ");
+            int itemCount = scanner.nextInt();
+
+            cart.addCart(itemName, itemPrice, itemCount);
+        }
+        else if (cartMenuSelect == 2) {
+            System.out.println("--------------------\nìˆ˜ëŸ‰ì„ ì¶”ê°€í•  ìƒí’ˆ ì •ë³´ ìž…ë ¥");
+            System.out.print("ìƒí’ˆ ì´ë¦„ : ");
+            String itemName = scanner.next();
+            System.out.print("ìƒí’ˆ ìˆ˜ëŸ‰ : ");
+            int itemCount = scanner.nextInt();
+
+            cart.updateCart(itemName, itemCount);
+        }
+        else if (cartMenuSelect == 3) {
+            System.out.println("--------------------\nì œê±°í•  ìƒí’ˆ ì •ë³´ ìž…ë ¥(ì „ë¶€ : all)");
+            System.out.print("ìƒí’ˆ ì´ë¦„ : ");
+            String itemName = scanner.next();
+            if (itemName.equals("all")){
+                cart.emptyCart();
+                return;
+            }
+            cart.removeCart(itemName);
+        }
+        else if (cartMenuSelect == 4) {
+            cart.printItems();
+        }
+    }
+}

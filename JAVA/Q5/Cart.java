@@ -1,67 +1,58 @@
-package Homeclass;
-import java.util.*;
-import java.util.Scanner;
+import java.util.LinkedList;
 
 public class Cart {
-	private 
-	Scanner ex = new Scanner(System.in);
-	LinkedList<Item> itemList = new LinkedList<Item>();
-	String name = "";
-	
-	public Cart(String name) {
-		this.name = name;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public void addCart(Item item) {
-		for(int i =0; i<itemList.size(); i++) {
-			Item item1 = itemList.get(i);
-			int quatityItem = item1.getQuatity();
-			if(item == item1) {
-				System.out.println("ÀÌ¹Ì ÀÖ´Â ¾ÆÀÌÅÛÀÔ´Ï´Ù");
-				quatityItem++;
-				item1.setQuatity(quatityItem);
-			}
-			else {
-				itemList.add(item);
-				System.out.println("ÇØ´ç ¾ÆÀÌÅÛÀÌ Ãß°¡µÇ¾ú½À´Ï´Ù.");
-			}
-			}
-	}
-	public void removeCart(String name) {
-		for(int i =0; i<itemList.size(); i++) {
-			Item item1 = itemList.get(i);
-			String name1 = item1.getName();
-			if(name== name1) {
-				itemList.remove(i);
-			}
-		}
-	}
-	public void updateCart(String name) {
-		for (int i =0; i<itemList.size(); i++) {
-			Item item1 = itemList.get(i);
-			String name1 = item1.getName();
-			if(name == name1) {
-				System.out.print("¼ö·®À» ¾ó¸¶³ª º¯°æÇÏ½Ã°Ú½À´Ï±î>>");
-				int range = ex.nextInt();
-				int quatity = item1.getQuatity();
-				quatity +=range;
-				item1.setQuatity(quatity);
-			}
-		}
-	}
-	public void emptyCart() {
-		itemList.clear();
-	}
-	public void printItems() {
-		for (Item item:itemList) {
-			System.out.println(item);
-		}
-		/*System.out.println(itemList)*/
-	}
+    String name;
+    LinkedList<Item> itemArray = new LinkedList<Item>();
+
+    public Cart(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void addCart(String itemName, int itemPrice, int itemCount) {
+
+        for (Item item : itemArray) {
+            if (item.getName().equals(itemName)) {
+                item.setCount(item.getCount() + itemCount);
+                return;
+            }
+        }
+
+        itemArray.add(new Item(itemName, itemPrice, itemCount));
+    }
+
+    public void updateCart(String itemName, int itemCount) {
+        for (Item item : itemArray) {
+            if (item.getName().equals(itemName)) {
+                item.setCount(itemCount);
+            }
+        }
+    }
+
+    public void removeCart(String itemName) {
+        for (Item item : itemArray) {
+            if (item.getName().equals(itemName)) {
+                itemArray.remove(item);
+            }
+        }
+    }
+
+    public void emptyCart() {
+        itemArray.clear();
+    }
+
+    public void printItems() {
+        System.out.println("--------------------");
+        if (itemArray.isEmpty())
+            System.out.println("ìƒí’ˆì´ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
+        for (Item item : itemArray) {
+            System.out.println( "\n" +
+                "\nìƒí’ˆ ì´ë¦„ : " + item.getName() + 
+                "\nìƒí’ˆ ê°€ê²© : " + item.getPrice() + 
+                "\nìƒí’ˆ ìˆ˜ëŸ‰ : " + item.getCount());
+        }
+    }
 }
