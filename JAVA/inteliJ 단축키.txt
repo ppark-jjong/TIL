@@ -24,3 +24,9 @@ Ctrl + E
 
 Shift + F6
 Rename
+
+---------------------------------------------------------
+자동완성 단어
+
+1. main = public static void main 주석을 바로 띄어줌
+2. sout = System.out.println(); 
