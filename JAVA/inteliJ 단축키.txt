@@ -1,29 +1,17 @@
-Ctrl + Shift + Space
-적합한 코드 자동완성을 추천 (Smart Code Completion)
+Ctrl + Shift + Space = 적합한 코드 자동완성을 추천 (Smart Code Completion)
+Shift + Shift = 파일, 클래스, 설정 등 키워드에 관련된 가능한 모든 것을 검색 (Search Everywhere)
+Alt + Enter = 퀵픽스 제안 (Show intention actions and quick-fixes)
+Alt + Insert = 생성자, Getter/Setter, toString과 같은 코드 생성(Lombok으로 대체 가능)
+Ctrl + P = 커서가 위치한 메서드의 매개변수 조회
+Ctrl + W = 커서 근처의 코드 선택 영역 확대
+Ctrl + Shift + W = 커서 근처의 코드 선택 영역 축소
+Ctrl + E = 최근 연 파일 목록 검색
+한줄 주석 : ctrl + /
+블록 주석 : shift + ctrl + /
 
-Shift + Shift
-파일, 클래스, 설정 등 키워드에 관련된 가능한 모든 것을 검색 (Search Everywhere)
 
-Alt + Enter
-퀵픽스 제안 (Show intention actions and quick-fixes)
 
-Alt + Insert
-생성자, Getter/Setter, toString과 같은 코드 생성(Lombok으로 대체 가능)
 
-Ctrl + P
-커서가 위치한 메서드의 매개변수 조회
-
-Ctrl + W
-커서 근처의 코드 선택 영역 확대
-
-Ctrl + Shift + W
-커서 근처의 코드 선택 영역 축소
-
-Ctrl + E
-최근 연 파일 목록 검색
-
-Shift + F6
-Rename
 
 ---------------------------------------------------------
 자동완성 단어
