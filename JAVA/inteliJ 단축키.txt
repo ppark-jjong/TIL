@@ -6,6 +6,7 @@ Ctrl + P = 커서가 위치한 메서드의 매개변수 조회
 Ctrl + W = 커서 근처의 코드 선택 영역 확대
 Ctrl + Shift + W = 커서 근처의 코드 선택 영역 축소
 Ctrl + E = 최근 연 파일 목록 검색
+Ctrl + X = 한줄 삭제
 한줄 주석 : ctrl + /
 블록 주석 : shift + ctrl + /
 
