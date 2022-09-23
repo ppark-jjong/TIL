@@ -14,7 +14,7 @@ cat (폴더, 파일) / (폴더,파일) : 폴더,파일의 내용을 확인한다
 
 
 git init : 깃 파일 생성
-git status : 워킹트리의 상태를 보여준다ㅎ+
+git status : 워킹트리의 상태를 보여준다+
 git status -s : git status보다 짧게 요약해서 알려준다(변경된 파일이 많을 때 유용하다.)
 git remote add origin 원격저장소주소 : origin이라는 이름을 가진 원격저장소를 하나 연결한다.
 git remote -v : 원격저장소 목록 확인
