@@ -10,13 +10,13 @@ public class Q4 {
 		
 		switch(c) {
 		case 0:
-			System.out.println("컴퓨터 : 가위");
+			System.out.println("????? : ????");
 			break;
 		case 1:
-			System.out.println(("컴퓨터 : 바위"));
+			System.out.println(("????? : ????"));
 			break;
 		case 2:
-			System.out.println("컴퓨터 : 보");
+			System.out.println("????? : ??");
 			break;
 		}
 		return c;
@@ -27,51 +27,51 @@ public class Q4 {
 		Scanner ex = new Scanner(System.in);
 		Q4 cal = new Q4();
 			while(true) {
-				System.out.print("가위(0), 바위(1), 보(2), 종료(-1) 중 정수 하나를 적으시오 >>");
+				System.out.print("????(0), ????(1), ??(2), ????(-1) ?? ???? ????? ??????? >>");
 				int myNum = ex.nextInt();
 				int comNum = cal.computer();
 				if(myNum>2&&myNum<-1) {
-					System.out.println("잘못 입력하셨습니다.");
+					System.out.println("??? ??????????.");
 				}
 				else {
 					switch(myNum) {
 					case 0:
 						if (comNum == 0) {
-							System.out.println("비겼습니다.");
+							System.out.println("???????.");
 						break;
 						}
 						else if (comNum==1){
-							System.out.println("졌습니다.");
+							System.out.println("???????.");
 							break;
 						}
 						else {
-							System.out.println("이겼습니다.");
+							System.out.println("???????.");
 							break;
 						}
 					case 1:
 						if (comNum == 0) {
-							System.out.println("이겼습니다.");
+							System.out.println("???????.");
 						
 							break;}
 						else if (comNum==1){
-							System.out.println("비겼습니다.");
+							System.out.println("???????.");
 							break;
 						}
 						else {
-							System.out.println("졌습니다.");
+							System.out.println("???????.");
 							break;
 						}
 					case 2:
 						if (comNum == 0) {
-							System.out.println("졌습니다.");
+							System.out.println("???????.");
 							break;
 						}
 						else if (comNum==1){
-							System.out.println("이겼습니다.");
+							System.out.println("???????.");
 							break;
 						}
 						else {
-							System.out.println("비겼습니다.");
+							System.out.println("???????.");
 						
 							break;}
 					}

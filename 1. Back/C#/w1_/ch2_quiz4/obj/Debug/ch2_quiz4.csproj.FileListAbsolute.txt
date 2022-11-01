@@ -1,0 +1,6 @@
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\bin\Debug\ch2_quiz4.exe.config
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\bin\Debug\ch2_quiz4.exe
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\bin\Debug\ch2_quiz4.pdb
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\obj\Debug\ch2_quiz4.csproj.CoreCompileInputs.cache
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\obj\Debug\ch2_quiz4.exe
+C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_quiz4\obj\Debug\ch2_quiz4.pdb

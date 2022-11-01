@@ -1,7 +1,0 @@
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\bin\Debug\ch2_quiz1_1941.exe.config
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\bin\Debug\ch2_quiz1_1941.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\bin\Debug\ch2_quiz1_1941.pdb
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\obj\Debug\ch2_quiz1_1941.csproj.CoreCompileInputs.cache
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\obj\Debug\ch2_quiz1_1941.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\obj\Debug\ch2_quiz1_1941.pdb
-C:\My_Main\MyStudy\1. Back\C#\w1_1941\ch2_quiz1_1941\obj\Debug\ch2_quiz1_1941.csproj.AssemblyReference.cache

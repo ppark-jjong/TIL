@@ -1,0 +1,10 @@
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\bin\Debug\ex8_8.exe.config
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\bin\Debug\ex8_8.exe
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\bin\Debug\ex8_8.pdb
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.csproj.AssemblyReference.cache
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.Form1.resources
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.Properties.Resources.resources
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.csproj.GenerateResource.cache
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.csproj.CoreCompileInputs.cache
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.exe
+C:\My_Main\MyStudy\1. Back\C#\w3_\ex8_8\obj\Debug\ex8_8.pdb

@@ -1,0 +1,8 @@
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\bin\Debug\w9_dbex4_1941.exe.config
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\bin\Debug\w9_dbex4_1941.exe
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\bin\Debug\w9_dbex4_1941.pdb
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\bin\Debug\Oracle.DataAccess.dll
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\obj\Debug\w9_dbex4_1941.csproj.CoreCompileInputs.cache
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\obj\Debug\w9_dbex4_1941.csproj.CopyComplete
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\obj\Debug\w9_dbex4_1941.exe
+C:\My_Main\MyStudy\1. Back\C#\w9_\w9_\w9_dbex4_1941\obj\Debug\w9_dbex4_1941.pdb

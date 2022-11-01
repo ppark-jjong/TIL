@@ -1,0 +1,6 @@
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\bin\Debug\w3_.exe.config
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\bin\Debug\w3_.exe
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\bin\Debug\w3_.pdb
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\obj\Debug\ex4_14.csproj.CoreCompileInputs.cache
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\obj\Debug\w3_.exe
+C:\My_Main\MyStudy\1. Back\C#\w3_\w3_\obj\Debug\w3_.pdb
