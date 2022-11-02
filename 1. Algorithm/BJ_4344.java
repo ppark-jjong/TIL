@@ -27,7 +27,7 @@ public class BJ_4344 {
 				}
 			}
 			
-				System.out.println(100*(count/Student);); //학생 비율 
+				System.out.println(100*(count/Student)); //학생 비율 
 			
 			}
 
