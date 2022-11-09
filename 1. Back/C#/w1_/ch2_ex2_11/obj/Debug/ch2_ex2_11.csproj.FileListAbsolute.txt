@@ -1,6 +1,0 @@
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\obj\Debug\ch2_ex2_11.csproj.CoreCompileInputs.cache
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\bin\Debug\ch2_ex2_11.exe.config
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\bin\Debug\ch2_ex2_11.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\bin\Debug\ch2_ex2_11.pdb
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\obj\Debug\ch2_ex2_11.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_\ch2_ex2_11\obj\Debug\ch2_ex2_11.pdb

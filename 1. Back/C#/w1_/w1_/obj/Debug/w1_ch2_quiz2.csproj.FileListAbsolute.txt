@@ -1,7 +1,0 @@
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\bin\Debug\w1_.exe.config
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\bin\Debug\w1_.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\bin\Debug\w1_.pdb
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\obj\Debug\w1_ch2_quiz2.csproj.AssemblyReference.cache
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\obj\Debug\w1_ch2_quiz2.csproj.CoreCompileInputs.cache
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\obj\Debug\w1_.exe
-C:\My_Main\MyStudy\1. Back\C#\w1_\w1_\obj\Debug\w1_.pdb
