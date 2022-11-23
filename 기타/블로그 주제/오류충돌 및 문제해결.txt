@@ -1,0 +1,21 @@
+어떤게 문제가 생겨났는데 / 어떤 오류가 생겼는가
+
+어떻게 해결하려고 생각했는가 / 어떤 오류 인가
+
+어떤과정을 거치는가 
+
+과정을 거치는 중 어떤 문제와 어려움이 생겼는가
+
+해결을 하고나서 어떻게 남기는가
+
+
+
+----------------------------1  ---------------------------------------------------
+스프링 서버 실행 시 jdk 호환 오류
+(JDK 연결 재확인)
+Process 'command 'C:/Program Files/Java/jdk-17.0.5/bin/java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
