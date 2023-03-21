@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewdivort"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta httdiv-equiv="X-UA-Comdivatible" content="ie=edge">
+    <link rel="stylesheet" href="/result.css">
+    <link rel="stylesheet" href="/footer.css">
+    <title>Result</title>
+</head>
+
+<body>
+
+<div>
+    <ul class="middle_head">
+        <li>
+            <div class="content_h1">{{userEntity.getId}} 님의 한줄요약입니다.
+            </div>
+            <div class="content_h1">
+                BMI 는 {{bmi}},
+                한국 {{sex}} 평균 {{average}}% 입니다.
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="main">
+    <ul class="main_section">
+        <li class="main_left_1">
+            <h2>현재 운동량</h2>
+            <div class="main_in" name="cal">
+                <div class="content_small">{{result}} kcal.</div>
+            </div>
+            <h2>현재 사용자 정보</h2>
+            <div class="main_left_in">
+                <ul>
+                    <li>
+                        <div class="content_mid">사용자 :</div>
+                        <div class="content_bold">{{userEntity.getId}}</div>
+                    </li>
+                    <li>
+                        <div class="content_mid">키 (cm) :</div>
+                        <div class="content_bold"> {{userEntity.getHeight}}</div>
+                    </li>
+                    <li>
+                        <div class="content_mid">몸무게 (kg) :</div>
+                        <div class="content_bold"> {{userEntity.getWeight}}</div>
+                    </li>
+                    <li>
+                        <div class="content_mid">bmi :</div>
+                        <div class="content_bold">{{bmi}} / {{bmis}}</div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="main_right">
+            <h2>운동한 시간동안 어떤 걸 할 수 있을까?</h2>
+
+            <div class="main_in">
+                <div class="content_small">당신이 살려준 닭은 {{chicken}}마리</div>
+            </div>
+            <br><br>
+            <div class="main_in">
+                <div class="content_small">택시를 타면 {{taxi}}원 정도 시간?</div>
+            </div>
+            <br><br>
+            <div class="main_in">
+                <div class="content_small">영화를 보면 평균 {{movie}}편 시청.</div>
+            </div>
+            <br><br>
+            <div class="main_in">
+                <div class="content_small">최저시급으로 따지면 {{pay}}원!</div>
+            </div>
+            <br><br>
+            <div class="main_in">
+                <div class="content_small"> 노래를 들으면 {{music}}곡 청취.</div>
+            </div>
+        </li>
+    </ul>
+    <div class="button">
+        <button type="button"><a href="/calculator">다시하기</a></button>
+        <button type="button"><a href="/secondhome">홈으로</a></button>
+    </div>
+</div>
+{{>footer}}
+</body>
+
+</html>

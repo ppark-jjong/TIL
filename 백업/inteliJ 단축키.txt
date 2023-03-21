@@ -1,0 +1,25 @@
+Ctrl + Shift + Space = 적합한 코드 자동완성을 추천 (Smart Code Completion)
+Shift + Shift = 파일, 클래스, 설정 등 키워드에 관련된 가능한 모든 것을 검색 (Search Everywhere)
+Alt + Enter = 퀵픽스 제안 (Show intention actions and quick-fixes)
+Alt + Insert = 생성자, Getter/Setter, toString과 같은 코드 생성(Lombok으로 대체 가능)
+Ctrl + P = 커서가 위치한 메서드의 매개변수 조회
+Ctrl + W = 커서 근처의 코드 선택 영역 확대
+Ctrl + Shift + W = 커서 근처의 코드 선택 영역 축소
+Ctrl + E = 최근 연 파일 목록 검색
+Ctrl + X = 한줄 삭제d
+한줄 주석 : ctrl + /
+블록 주석 : shift + ctrl + /
+Alt + 1 : 파일선택창으로 이동
+Ctrl + Alt + L : 현재 프로그래밍언어에 맞게 파일 서식 정리
+Ctrl + Shift + R : 한번에 변수명 변경
+Shift + R : 이전에 run파일 다시 run
+Ctrl + Alt + Insert : 새로운 생성
+Complete Current Statement = 자동 세미콜론
+Ctrl + Shift + Alt = 다중커서
+Ctrl + Shift + R = 다중 편집
+---------------------------------------------------------
+자동완성 단어
+
+1. main = public static void main 주석을 바로 띄어줌
+2. sout = System.out.println(); 
+

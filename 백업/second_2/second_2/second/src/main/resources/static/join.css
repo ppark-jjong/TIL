@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.join_form {
+    width: 400px;
+    border: 2px blue;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.join_form h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.btn-primary {
+    padding-top: 10px;
+    width: 180px;
+}
+
+.join_btn {
+    padding-top: 25px ;
+    margin-right: 5px ;
+    float: left;
+    width : 30px;
+}
+
+.pw_btn {
+    padding-top: 25px ;
+    margin-left: 5px ;
+    float: right;
+}
+
+label {
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    padding-right: 10px;
+    width: 70px;
+    margin-top: 8px;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.form_select {
+    height:  40px;
+    width: 50px;
+}
+
+input a {
+    text-decoration : none;
+    font-style: none;
+    color: white;
+}
+
+button {
+    color: white;
+}
