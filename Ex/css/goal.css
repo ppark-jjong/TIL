@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1c1c1c;
+	color: #fff;
+}
+
+.sidebar {
+	background-color: #333;
+	height: 100%;
+	position: fixed;
+	width: 200px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar li {
+	padding: 15px;
+}
+
+.sidebar li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar li a:hover {
+	background-color: #555;
+}
+
+.content {
+	margin-left: 200px;
+	padding: 20px;
+}
+
+.goal-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.goals-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.add-goal-btn {
+	background-color: #fff;
+	width: 150px;
+	color: #333;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.add-goal-btn:hover {
+	background-color: #ddd;
+	color: #333;
+}
+
+.goal-item {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	width: calc(33.33% - 10px);
+	box-sizing: border-box;
+}
+
+.goal-item h2 {
+	margin-top: 0;
+}
+
+.goal-item p {
+	margin: 10px 0;
+}
+
+.goal-item button {
+	background-color: #fff;
+	color: #333;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.goal-item button:hover {
+	background-color: #ddd;
+	color: #333;
+}

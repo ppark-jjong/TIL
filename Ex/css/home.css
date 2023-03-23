@@ -1,0 +1,96 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-wrap: wrap; */
+}
+
+.container {
+	display: 1;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+input[type="text"],
+textarea,
+select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+select {
+	height: 40px;
+}
+
+.invite {
+	display: 1;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+input[type="email"] {
+	display: inline-block;
+	width: 200px;
+	padding: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+	.container,
+	.invite {
+		width: 80%;
+	}
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!-- 프로젝트 생성창 -->
+<head>
+    <title>Project Creation Window</title>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <script src="../js/home.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Create a New Project</h1>
+            <label for="project-name">Project Name:</label>
+            <input type="text" id="project-name">
+            <label for="project-intro">Introduction:</label>
+            <textarea id="project-intro"></textarea>
+            <label for="project-scope">Public Scope:</label>
+            <select id="project-scope">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+            </select>
+            <button id="create-project-button">Create Project</button>
+        </div>
+
+        <div class="invite">
+            <h2>Invite Members</h2>
+            <label for="invite-email">Email:</label>
+            <input type="email" id="invite-email">
+            <button id="invite-button">Invite</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
