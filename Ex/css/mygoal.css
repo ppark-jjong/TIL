@@ -6,8 +6,13 @@ body {
 	background-color: #222;
 	color: #fff;
 }
-/* Side menu bar */
 
+a {
+	text-decoration-line: none;
+	color: white;
+}
+
+/* Side menu bar */
 
 .sidebar {
 	position: fixed;
@@ -48,42 +53,42 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #222;
-    color: #fff;
-    
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #222;
+	color: #fff;
+
 	margin-left: 200px;
 	padding: 20px;
 }
 
 .top-bar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    height: 80px;
-    background-color: #444;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	height: 80px;
+	background-color: #444;
 }
 
 .back-button {
-    margin-right: 20px;
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+	margin-right: 20px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	cursor: pointer;
 }
 
 .completion-mark {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .deadline {
-    margin-left: auto;
+	margin-left: auto;
 }
 
 .content {
-    flex-grow: 1;
-    padding: 20px;
-    display: flex;
+	flex-grow: 1;
+	padding: 20px;
+	display: flex;
 }

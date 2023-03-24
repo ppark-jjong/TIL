@@ -6,6 +6,10 @@ body {
 	background-color: #222;
 	color: #fff;
 }
+a {
+	text-decoration-line: none;
+	color: white;
+}
 /* Side menu bar */
 
 
