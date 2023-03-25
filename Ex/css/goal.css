@@ -13,8 +13,6 @@ a {
 }
 
 /* Side menu bar */
-
-
 .sidebar {
 	position: fixed;
 	top: 0;
@@ -53,17 +51,10 @@ a {
 	left: 20px;
 }
 
+
 .content {
 	margin-left: 200px;
 	padding: 20px;
-}
-
-.goal-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 20px;
 }
 
 .goals-header {
@@ -87,21 +78,25 @@ a {
 	color: #333;
 }
 
+.goal-container {
+	display: flex;
+	gap: 20px 2%;
+	flex-wrap: wrap;
+	
+}
+
 .goal-item {
+	
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	margin-bottom: 20px;
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
-	margin-bottom: 20px;
-	width: calc(33.33% - 10px);
-	box-sizing: border-box;
-}
+	border-radius: 10px;
+	margin: 10px;
 
-.goal-item h2 {
-	margin-top: 0;
-}
-
-.goal-item p {
-	margin: 10px 0;
 }
 
 .goal-item button {

@@ -6,13 +6,19 @@ body {
 	background-color: #222;
 	color: #fff;
 }
+
 a {
 	text-decoration-line: none;
 	color: white;
 }
+
+/* Style container */
+.container {
+	display: flex;
+}
+
+
 /* Side menu bar */
-
-
 .sidebar {
 	position: fixed;
 	top: 0;
@@ -51,37 +57,61 @@ a {
 	left: 20px;
 }
 
-/* Content */
-.content {
-	margin-left: 250px;
+.centered-content {
+	margin-left: 200px;
 	padding: 20px;
 }
 
-.user-info {
-	margin: 20px 0;
-	padding: 20px;
-	background-color: #333;
-	border-radius: 5px;
+.project-name {
+	margin: 2%;
+	font-size: 36px;
+	text-align: center;
 }
 
-.user-info h2 {
-	margin-top: 0;
-	font-size: 24px;
-	font-weight: normal;
-	color: #fff;
-}
-
-.project-details {
+.centered-top {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
 }
 
-.introduction {
+.team-members,
+.project-intro,
+.my-work,
+.goals {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.project-intro {
 	flex: 1;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+
 }
 
-.members {
-	margin-left: 1em;
+.team-members {
+	flex: 1;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.my-work {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.goals {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
 }

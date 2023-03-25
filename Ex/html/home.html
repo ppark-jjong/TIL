@@ -1,35 +1,145 @@
 <!DOCTYPE html>
 <html>
-<!-- 프로젝트 생성창 -->
+
 <head>
-    <title>Project Creation Window</title>
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
-    <script src="../js/home.js"></script>
+  <title>프로젝트 생성</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: white;
+    }
+
+    h1 {
+      color: white;
+      font-size: 48px;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #555;
+      border-radius: 4px;
+      background-color: #555;
+      color: white;
+    }
+
+    input[type="submit"],
+    button {
+      background-color: #555;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    button:hover {
+      background-color: #777;
+    }
+
+    .section {
+      margin: 30px;
+      display: inline-block;
+      width: 35%;
+      vertical-align: top;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .friend-form {
+      display: inline-block;
+      margin-left: -5px;
+      vertical-align: top;
+    }
+
+    .friend-search-results {
+      margin: 20px;
+      text-align: left;
+    }
+
+    .friend-result {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <h1>Create a New Project</h1>
-            <label for="project-name">Project Name:</label>
-            <input type="text" id="project-name">
-            <label for="project-intro">Introduction:</label>
-            <textarea id="project-intro"></textarea>
-            <label for="project-scope">Public Scope:</label>
-            <select id="project-scope">
-                <option value="public">Public</option>
-                <option value="private">Private</option>
-            </select>
-            <button id="create-project-button">Create Project</button>
+  <div class="container">
+    <h1>프로젝트 생성</h1>
+    <div class="section">
+      <form id="project-form">
+        <label for="project-title">프로젝트 제목:</label><br>
+        <input type="text" id="project-title" name="project-title"><br>
+        <label for="project-description">프로젝트 소개:</label><br>
+        <textarea id="project-description" name="project-description"></textarea><br>
+        <label for="project-scope">공개 범위:</label><br>
+        <select id="project-scope" name="project-scope">
+          <option value="public">전체 공개</option>
+          <option value="private">비공개</option>
+          <option value="friends-only">친구만 공개</option>
+        </select><br><br>
+      </form>
+    </div>
+    <div class="section">
+      <form id="friend-form">
+        <label for="friend-search">친구 검색:</label><br>
+        <input type="text" id="friend-search" name="friend-search" style='width:80%; display:inline-block;'>
+        <input type='submit' value='검색' class='friend-form'>
+      </form>
+
+      <div class='friend-search-results'>
+        <h2>Friend Search Results</h2>
+
+        <div class='friend-result'>
+          <span class='friend-name'>John Smith</span>
+          <button class='invite-btn'>Invite</button>
         </div>
 
-        <div class="invite">
-            <h2>Invite Members</h2>
-            <label for="invite-email">Email:</label>
-            <input type="email" id="invite-email">
-            <button id="invite-button">Invite</button>
+        <div class='friend-result'>
+          <span class='friend-name'>Jane Doe</span>
+          <button class='invite-btn'>Invite</button>
         </div>
+
+        <div class='friend-result'>
+          <span class='friend-name'>Bob Johnson</span>
+          <button class='invite-btn'>Invite</button>
+        </div>
+
+      </div>
     </div>
+    <br>
+    <button onclick="submitForm()"
+      style=' width : 50%;padding:20px; font-size: 2rem; font-family:Arial, Helvetica, sans-serif;'>Start New BPM
+      Template</button>
+    <script>
+      function submitForm() {
+        // Get form data
+        var projectTitle = document.getElementById("project-title").value;
+        var projectDescription = document.getElementById("project-description").value;
+        var projectScope = document.getElementById("project-scope").value;
+
+        // Submit form data to another page
+        window.location.href = "submit.html?title=" + encodeURIComponent(projectTitle) + "&description=" + encodeURIComponent(projectDescription) + "&scope=" + encodeURIComponent(projectScope);
+      }
+    </script>
+
+  </div>
 
 </body>
 

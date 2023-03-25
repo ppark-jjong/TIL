@@ -1,28 +1,111 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  background-color: #333;
-
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
 }
 
-.container {
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+
+body {
+  min-height: 100vh;
+  background: #212534;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+
+.card {
+  background: #191c29;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+  font-family: cursive;
 }
 
-h1 {
-  font-size: 3rem;
-  text-align: center;
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
 }
+.card:hover:before, .card:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    , #000000, #5c5c5c 43%, #c9c9c9);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #2e3131, #777778 43%, #f4f4f4);
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+a {
+  color: #212534;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
 
 .next-btn {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-  background-color: #007bff;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  background-color: #212534;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -30,6 +113,13 @@ h1 {
   margin-top: 2rem;
 }
 
+
 .next-btn:hover {
-  background-color: #0069d9;
+  background-color: #212534;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
 }

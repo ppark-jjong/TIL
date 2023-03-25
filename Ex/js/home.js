@@ -1,9 +1,12 @@
-const inviteButton = document.querySelector('#invite-button');
-inviteButton.addEventListener('click', () => {
-	const inviteEmail = document.querySelector('#invite-email').value;
-	if (inviteEmail) {
-		alert(`Invitation sent to ${inviteEmail}`);
-	} else {
-		alert('Please enter a valid email address');
-	}
+// Darken background color on hover
+const sections = document.querySelectorAll('.section');
+
+sections.forEach(section => {
+  section.addEventListener('mouseenter', () => {
+    section.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+  });
+  
+  section.addEventListener('mouseleave', () => {
+    section.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+  });
 });
