@@ -1,0 +1,159 @@
+.page-container {
+    width: 100vw;
+    height: auto;
+    background-color: #eff0f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-container {
+    width: 900px;
+    height: 100vhs;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.top-wrap h1 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.toolbar-wrap {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.toolbar-btn {
+    margin-right: 2.5rem;
+    border: none;
+}
+
+.account-update-btn {
+    color: #6472ce;
+    font-weight: bold;
+    border-bottom: solid 2px #6472ce;
+}
+
+.toolbar-btn:hover {
+    color: #6472ce;
+    font-weight: bold;
+}
+
+.profile-wrap {
+    background-color: white;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.profile-detail {
+    display: flex;
+    align-items: center;
+}
+
+.profile-detail img {
+    width: 90px;
+    height: 90px;
+}
+
+.profile-detail .profile-username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-detail .profile-email {
+    color: grey;
+}
+
+.profile-user {
+    margin-left: 1.5rem;
+}
+
+.profile .img-change{
+    width: 90px;
+    margin-top: 1rem;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.profile .img-change:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.update-wrap {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.update {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-info {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.update-detail {
+    margin-right: 2rem;
+    color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.update-input {
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    line-height: 45px;
+    width: 700px;
+    padding-left: 20px;
+}
+
+.update-input:focus {
+    outline: none;
+}
+
+.btn-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.save-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 45px;
+    border: none;
+    background-color: #6472ce;
+    margin-left: auto;
+    margin-bottom: 2rem;
+}

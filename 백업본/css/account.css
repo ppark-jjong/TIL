@@ -1,0 +1,127 @@
+.page-container {
+    width: 100vw;
+    height: auto;
+    background-color: #eff0f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-container {
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.top-wrap h1 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.toolbar-wrap {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.toolbar-btn {
+    margin-right: 2.5rem;
+    border: none;
+}
+
+.account-btn {
+    color: #6472ce;
+    font-weight: bold;
+    border-bottom: solid 2px #6472ce;
+}
+
+.toolbar-btn:hover {
+    color: #6472ce;
+    font-weight: bold;
+}
+
+.account-btn {
+    color: #6472ce;
+    border-bottom: solid 2px #6472ce;
+}
+
+.profile-wrap {
+    background-color: white;
+    display: flex;
+    height: 180px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-wrap img {
+    width: 90px;
+    height: 90px;
+    margin-left: 3rem;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.profile-username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-email {
+    color: grey;
+}
+
+.logout-btn {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 18px;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    margin: auto 3rem auto auto;
+}
+
+.withdraw-wrap {
+    background-color: white;
+    display: flex;
+    height: 180px;
+    align-items: center;
+}
+
+.withdraw-discription {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.withdraw-discription h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.withdraw-discription .withdraw-detail {
+    font-size: 16px;
+    color: grey;
+}
+
+.withdraw-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 25px;
+    border: none;
+    background-color: rgb(221, 47, 47);
+    margin: auto 3rem auto auto;
+}
