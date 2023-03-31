@@ -1,0 +1,11 @@
+오류 1 : Repository.save() 가 Null이다 (NullPointException)
+	결론만 말하자면 생성자 주입이 원활히 되지 않아서 이다.
+	Repository를 직접 불러와서 사용하는 클래스 ( 예를 들자면 Service) 에서
+	@RequiredArgsConstructor를 달아주고
+	Repositroy 의 접근자 타입은 final로 선언을 해야 Lombok이 작동한다.
+
+
+오류 2: form 태그로 입력 받았는데 자꾸 dto에 null 값으로 넘어온다면
+          html 의 name 변수명과 dto 의 name 변수명이 일치하는지 봐라;;;;
+
+오류 3 : 
