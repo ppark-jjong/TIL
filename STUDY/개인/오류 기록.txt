@@ -8,4 +8,5 @@
 오류 2: form 태그로 입력 받았는데 자꾸 dto에 null 값으로 넘어온다면
           html 의 name 변수명과 dto 의 name 변수명이 일치하는지 봐라;;;;
 
-오류 3 : 
+오류 3 : .sqlsyntaxerrorexception 
+	SQL syntax 위반시 나타나는 오류 -> 그냥 오타일 확률이 매우 높으므로 디버깅 꼼꼼히 다시
