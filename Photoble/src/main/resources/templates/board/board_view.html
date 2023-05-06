@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/board_view.css">
+    <title>Photoble</title>
+</head>
+<body>
+    <!-- 넷바 -->
+    <div class="nav-bar">
+        <div class="logo" onclick="location.href='/board/main'">
+            <img class="logo-image" src="/image/logo.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+        </div>
+    </div>
+    <!-- 메인 콘텐츠 -->
+    <div class="Main">
+        <!-- 구분선 -->
+        <!--
+            <div class="division-line1"></div>
+            <div class="division-line2"></div>
+        -->
+        <div class="content">
+            <header>
+                <!-- 내 게시글 정보 -->
+                <h1 class="board-title" th:text="${board.title}"></h1>
+                <div class="user-info">
+                    <h3 class="user-name" th:text="${board.user}"></h3>
+                    <h3 class="side"> | </h3>
+                    <h3 class="user-date" th:text="${board.date}"></h3>
+                </div>
+                <!-- 넷바 아래 댓글수 & 댓글 아이콘 -->
+                <div class="comment">
+                    <img class="comment-icon" src="/image/comment.png"/>
+                    <h3 class="comment-cnt" th:text="${cnt}"></h3>
+                    <a th:href="@{/board/remove(id=${board.id})}" th:if="${board.user == nowUser}"><input type="button" class="delete-btn" value="삭제"></a>
+                </div>
+            </header>
+
+            <!-- 이미지 위에 선 -->
+            <!-- 
+                <div class="line"></div>
+            -->
+
+            <!-- 이미지 -->
+        </div>
+        <div class="Main-image-box">
+            <img class="Main-img" th:each="image : ${board.imageTagPrintList}" th:src="${image.image}"/>
+        </div>
+
+        <footer>
+            <!-- 내 게시글 댓글 수 & 아이콘 -->
+            <div class="comment2">
+                <img class="comment-icon2" src="/image/comment.png"/>
+                <h3 class="comment-cnt2" th:text="'댓글 ' + ${cnt} + '개'"></h3>
+            </div>
+
+            <!-- 내 댓글 작성 -->
+            <form action="/comment/uploding" method="post" enctype="multipart/form-data">
+                <div class="user-comment">
+                    <input name="content" type="text" class="user-comment-input">
+                    <input type="submit" value="등록" class="user-comment-admit">
+                    <input name="board" type="text" th:value="${board.id}" style="display: none">
+                </div>
+            </form>
+
+            <!-- 다른유저 댓글 -->
+            <div class="another-comment-box" th:each="comment : ${comments}">
+                <div class="another-user-info">
+                    <h3 class="another-user-name" th:text="${comment.user}"></h3>
+                    <div class="another-sub-info">
+                        <form style="display:inline" action="/comment/remove" method="post" enctype="multipart/form-data">
+                            <input th:if="${comment.user == nowUser}" type="submit" value="삭제" class="remove" >
+                            <input name="commentId" type="text" th:value="${comment.id}" style="display: none">
+                            <input name="board" type="text" th:value="${board.id}" style="display: none">
+                        </form>
+                        <h3 class="another-user-date" th:text="${comment.date}"></h3>
+                    </div>
+                </div>
+                <div class="another-comment-text" th:text="${comment.content}"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

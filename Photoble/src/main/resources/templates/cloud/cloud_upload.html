@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/cloud_upload.css">
+    <title>Photoble</title>
+</head>
+<body>
+    <!--넷바-->
+    <div class="nav-bar">
+        <div class="logo" onclick="/cloud/main'">
+            <img class="logo-image" src="/image/logo.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+        </div>
+    </div>
+    <!--메인컨텐츠-->
+    <div class="Main">
+        <div class="division-line1"></div> <!--구분선1-->
+        <div class="division-line2"></div> <!--구분선2-->
+        <form action="/cloud/uploding" method="post" enctype="multipart/form-data">
+            <div class="image-group">
+                <input name="multipartFile" type="file" class="realupload" accept="image/*" onchange="setThumbnail(event);">
+                <div id="image_container"></div>
+                <button type="button" class="add-btn">+</button>
+                <input name="tag" class="detail-tag"> <!--상세태그-->
+            </div>
+            <button type="submit" class="confirm-btn">확인</button>
+            <button type="button" class="cancel-btn" onclick="location.href='/cloud/main'">취소</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="/js/cloud_upload.js"></script>
+</body>
+</html>

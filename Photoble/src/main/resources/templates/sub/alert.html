@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/css/alert.css">
+    <title>Photoble</title>
+</head>
+<body>
+    <div class="alert">
+        <img class="success-img" src="/image/logo.png">
+        <h1 class="success-h1" th:text="${title}"></h1>
+        <h3 class="success-h3" th:text="${message}"></h3>
+        <div class="submit-set">
+            <a style="text-decoration-line: none" th:href="${url}"><input class="check-submit" type="submit" value="확인"></a>
+        </div>
+    </div>
+</body>
+</html>

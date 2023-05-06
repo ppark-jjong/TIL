@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="kr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/cloud_main.css">
+    <title>Photoble</title>
+</head>
+<body>
+<!--넷바-->
+<div class="nav-bar">
+    <div class="logo" onclick="location.href='/board/main">
+        <img class="logo-image" src="/image/logo.png"/>
+        <h1 class="logo-title">Photoble</h1>
+    </div>
+    <div class="switch-page">
+        <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+        <span class="division-btn">|</span>
+        <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+    </div>
+    <form class="search-bar">
+        <button class="search-btn">
+            <img class="search-img" src="/image/search.png">
+        </button>
+        <input name="searchKeyword" class="search-input" type="search" th:value="${searchKeyword}">
+    </form>
+    <div class="slide-btn">
+        <div class="go-notice" onclick="location.href='/board/main'">
+            <img class="go-notice-icon" src="/image/notice2.png">
+        </div>
+        <div class="go-cloud" onclick="location.href='/cloud/main'">
+            <img class="go-cloud-icon" src="/image/cloud1.png">
+        </div>
+    </div>
+    <a href="/cloud/upload"><img class="upload-btn" src="/image/upload.png"></a>
+</div>
+<!--메인 콘텐츠-->
+    <div class="Main">
+        <form class="cloud">
+            <div class="cloud-group">
+                <div class="cloud-img-group" >
+                    <a th:each="image : ${userImage}" th:href="@{/cloud/view(imagename=${image?.imagename})}"><img class="cloud-img" th:src="${image?.imagepath}"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

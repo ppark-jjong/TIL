@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/mypage_info.css">
+    <title>Photoble</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo" onclick="location.href='/cloud/main'">
+            <img class="logo-image" src="/image/logo.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="switch-notice" onclick="location.href='/mypage/notice'">게시글</button>
+            <button class="switch-info" onClick="location.href='/mypage/info'">내정보</button>
+        </div>
+        <div class="division-line1"></div>
+    </div>
+    <div class="Main">
+        <div class="division-line2"></div>
+        <div class="division-line3"></div>
+        <div class="input-id">
+            <h1 class="input-id-font">아이디</h1>
+            <p class="input-id-box" type="text" th:text="${user.userid}">
+        </div>
+        <form action="/passwordChange" method="post" enctype="multipart/form-data">
+            <div class="input-pw">
+                <h1 class="input-pw-font">비밀번호</h1>
+                <input class="input-pw-box" name="password" type="text" th:value="${user.password}">
+            </div>
+            <button class="fix1">수정</button>
+        </form>
+        <form action="/emailChange" method="post" enctype="multipart/form-data">
+            <div class="input-email">
+                <h1 class="input-email-font">E-Mail</h1>
+                <input class="input-email-box" name="email" type="text" th:value="${user.email}">
+            </div>
+            <button class="fix2">변경</button>
+        </form>
+        <a href="/exitQuestion" style="text-decoration-line: none"><button class="member-delete">회원탈퇴</button></a>
+    </div>
+</body>
+</html>

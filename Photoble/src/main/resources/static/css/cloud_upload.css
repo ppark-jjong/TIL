@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    overflow: scroll;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/*
+넷바
+*/
+.realupload {
+    display: none;
+}
+.nav-bar {
+    width: 1920px;
+    height: 250px;
+    background: #396cfd;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: white;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: absolute;
+    left: 1630px;
+    top: 60px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+.notice {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.division-btn {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.logout {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+/*
+메인콘텐츠
+*/
+.Main {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+}
+.division-line1 {
+    position: absolute;
+    background-color: #396cfd;
+    width: 4px;
+    height: 100%;
+    left: 460px;
+}
+.division-line2 {
+    position: absolute;
+    background-color: #396cfd;
+    width: 4px;
+    height: 100%;
+    left: 1460px;
+}
+.image-group {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+    display: block;
+    position: relative;
+    width: 650px;
+    height: 700px;
+    left: 635px;
+    border: #396cfd solid 4px;
+    border-radius: 15px 15px 15px 15px;
+}
+.image {
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+.detail-tag {
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: #396cfd solid 4px;
+    border-radius: 15px 15px 15px 15px;
+    width: 600px;
+    height: 70px;
+    font-size: 24pt;
+    font-weight: 900;
+    text-align: center;
+}
+.add-btn {
+    box-sizing: border-box;
+    border: #396cfd solid 4px;
+    border-radius: 15px 15px 15px 15px;
+    width: 600px;
+    height: 100px;
+    font-size: 48pt;
+    color: #396cfd;
+    margin-top: 35px;
+}
+.confirm-btn {
+    color: white;
+    background-color: #396cfd;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    width: 80px;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: 900;
+    margin-left: 860px;
+    margin-top: 40px;
+}
+.cancel-btn {
+    color: white;
+    background-color: #396cfd;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    width: 80px;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: 900;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+

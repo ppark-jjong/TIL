@@ -1,0 +1,81 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+}
+.Main {
+    position: absolute;
+    top: 200px;
+    left: 690px;
+    width: 540px;
+    height: 680px;
+    background-color: #396cfd;
+    border: solid;
+    border-color: #0f3cbb;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 60px;
+    top: 80px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.logo-title {
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+    color: white;
+}
+.id {
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    left: 105px;
+    top: 230px;
+    border: solid;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #0f3cbb;
+    font-size: 20pt;
+    text-align: center;
+}
+.pw {
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    left: 105px;
+    top: 320px;
+    border: solid;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #0f3cbb;
+    font-size: 20pt;
+    text-align: center;
+}
+.email {
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    left: 105px;
+    top: 410px;
+    border: solid;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #0f3cbb;
+    font-size: 20pt;
+    text-align: center;
+}
+.login {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 170px;
+    top: 550px;
+    font-size: 20pt;
+    color: #396cfd;
+    font-weight: 900;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+}

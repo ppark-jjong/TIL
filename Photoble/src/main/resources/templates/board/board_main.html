@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Photoble</title>
+  <link rel="stylesheet" href="/css/board_main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+</head>
+<body>
+    <!--넷바-->
+    <div class="nav-bar">
+        <div class="logo" onclick="location.href='/board/main">
+            <img class="logo-image" src="/image/logo.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+        </div>
+        <form class="search-bar">
+            <button class="search-btn">
+                <img class="search-img" src="/image/search.png">
+            </button>
+            <input name="searchKeyword" class="search-input" type="search" th:value="${searchKeyword}">
+        </form>
+        <div class="slide-btn">
+            <div class="go-notice" onclick="location.href='/board/main'">
+                <img class="go-notice-icon" src="/image/notice1.png">
+            </div>
+            <div class="go-cloud" onclick="location.href='/cloud/main'">
+                <img class="go-cloud-icon" src="/image/cloud2.png">
+            </div>
+        </div>
+        <a href="/board/upload"><img class="upload-btn" src="/image/upload.png"></a>
+    </div>
+    <!--메인 콘텐츠-->
+    <div class="Main">
+        <ul>
+            <li class="content" th:each="board : ${list}">
+                <div class="options">
+                    <div class="option active" th:each="image : ${board.imageTagPrintList}" th:style="'--optionBackground:url('+${image.image}+');'">
+                       <div class="shadow"></div>
+                       <div class="label" th:text="${image.tag}">
+                       </div>
+                    </div>
+                 </div>
+                 <div class="title"><a th:href="@{/board/view(id=${board.id})}" th:text="${board.title}" style="text-decoration-line : none"></a></div>
+                 <h3 class="user-name" th:text="${board.user}"></h3>
+            </li>
+        </ul>
+    </div>
+  <script type="text/javascript" src="/js/board_main.js"></script>
+
+</body>
+</html>

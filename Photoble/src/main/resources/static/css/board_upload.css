@@ -1,0 +1,216 @@
+body {
+    margin: 0px;
+    overflow: scroll;
+    background-color: white;
+}
+
+/*
+넷바
+*/
+.nav-bar {
+    width: 1920px;
+    height: 250px;
+    background: #396cfd;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: white;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: absolute;
+    left: 1630px;
+    top: 60px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+.notice {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.division-btn {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.logout {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+/*
+메인
+*/
+.division-line1 {
+    position: absolute;
+    background-color: #396cfd;
+    width: 4px;
+    height: 100%;
+    left: 180px;
+}
+.division-line2 {
+    position: absolute;
+    background-color: #396cfd;
+    width: 4px;
+    height: 100%;
+    left: 1800px;
+}
+
+.title {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border: #396cfd solid 4px;
+    border-radius: 15px 15px 15px 15px;
+    width: 800px;
+    height: 80px;
+    font-size: 24pt;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.label-title {
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid white 2px;
+    background-color: #396cfd;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.title-set {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    margin-left: 600px;
+    text-align: center;
+}
+.upload-btn {
+    text-align: center;
+    padding-top: 10px;
+    border: none;
+    border-radius: 25px 25px 25px;
+    background-color: #396cfd;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    display: inline;
+    font-size: 16pt;
+    font-weight: 900;
+    color: white;
+    margin-left: 1500px;
+    margin-top: 140px;
+}
+
+
+.Main {
+    overflow: visible;
+    display: inline;
+}
+.add-image {
+    position: absolute;
+    display: inline;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 100%;
+    background-color: beige;
+    margin-left: 380px;
+    margin-top: 120px;
+}
+.prev-img {
+    position: absolute;
+    display: inline-block;
+    overflow: visible;
+    box-sizing: border-box; 
+    width: 1300px;
+    margin-top: 250px;
+    margin-left: 340px;
+    height: 1000px;
+    border: none;
+}
+.image {
+    overflow: visible;
+    border: none;
+    box-sizing: border-box;
+    width: 170px;
+    height: 170px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+img:focus {
+    outline: #396cfd solid 4px;
+}
+
+#btn {
+    
+}
+
+.check-box {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 135px;
+    top: -178px;
+}
+.image-box {
+    background-color: #396cfd;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 170px;
+    height: 170px;
+    border: none;
+    margin-left: 10px;
+    border: none;
+}
+
+#add-image {
+    box-sizing: border-box;
+    position: relative;
+    left: 380px;
+    top: 150px;
+    width: 800px;
+    height: 100%;
+}
+#preview-image img:focus {
+    
+}
+#image {
+    overflow: visible;
+    border: white solid 1px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 170px;
+    margin-left: 2px;
+    margin-top: 2px;
+}

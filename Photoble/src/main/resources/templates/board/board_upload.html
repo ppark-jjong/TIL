@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/board_upload.css">
+    <title>Photoble</title>
+</head>
+<body>
+    <!--넷바-->
+    <div class="nav-bar">
+        <div class="logo" onclick="location.href='/board/main'">
+            <img class="logo-image" src="/image/logo.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+        </div>
+    </div>
+    <div class="Main">
+        <div class="division-line1"></div>
+        <div class="division-line2"></div>
+        <form action="/board/uploading" method="post" enctype="multipart/form-data">
+            <div class="title-set">
+                <h1 class="label-title">게시글 작성</h1>
+                <input name="title" class="title" placeholder="제목을 입력하세요">
+            </div>
+            <button class="upload-btn" type="submit">업로드</button>
+            <div class="prev-img" >
+                <div class="image-box" th:each="image : ${list}">
+                    <img class="image"  th:src="${image.imagepath}">
+                    <input type="checkbox" onclick="CountChecked(this)" class="check-box" name="selectImage" th:value="${image.imagepath}">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="/js/board_upload.js"></script>
+</body>
+</html>

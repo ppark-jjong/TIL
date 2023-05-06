@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/cloud_view.css">
+  <title>Photoble</title>
+</head>
+<body>
+<!--넷바-->
+<div class="nav-bar">
+  <div class="logo" onclick="location.href='/cloud/main'">
+    <img class="logo-image" src="/image/logo.png"/>
+    <h1 class="logo-title">Photoble</h1>
+  </div>
+  <div class="switch-page">
+    <button class="notice" onclick="location.href='/mypage/info'">마이페이지</button>
+    <span class="division-btn">|</span>
+    <button class="logout" onClick="location.href='/logout'">로그아웃</button>
+  </div>
+</div>
+<!--메인컨텐츠-->
+<div class="Main">
+  <div class="division-line1"></div> <!--구분선1-->
+  <div class="division-line2"></div> <!--구분선2-->
+  <form action="/cloud/modify" method="post" enctype="multipart/form-data">
+    <div class="image-group">
+      <img class="image" th:src="${image.imagepath}">
+      <input class="detail-tag" name="tag" th:value="${tag}"><!--상세태그-->
+      <a th:href="@{/cloud/download(name=${image.imagename})}" style="text-decoration-line: none"><button type="button" class="down-btn">다운로드</button></a>
+      <input name="pastTag" th:value="${tag}" style="display: none">
+    </div>
+    <div class="btn-group">
+      <button class="fix-btn" type="submit" th:name="name" th:value="${image.imagename}">수정</button>
+      <a th:href="@{/cloud/delete(name=${image.imagename})}"><button class="delete-btn" type="button">삭제</button></a>
+      <button class="cancel-btn" type="button" onclick="location.href='/cloud/main'">취소</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

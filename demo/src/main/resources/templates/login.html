@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div class="page-container">
+  <form action="/user/dologin" method="post">
+    <div class="login-form-container shadow">
+      <div class="login-form-left-side">
+        <div class="top-logo-wrap">
+          <img src="/image/logo.png" alt="">
+        </div>
+        <h1>BPM</h1>
+      </div>
+      <div class="login-form-right-side">
+        <h1>Login</h1>
+        <div class="login-input-container">
+          <div class="login-input-wrap input-id">
+            <input placeholder="Email" type="text" name="email">
+          </div>
+          <div class="login-input-wrap input-password">
+            <input placeholder="Password" type="password" name="password">
+          </div>
+        </div>
+        <div class="login-btn-wrap">
+          <button type="submit" class="login-btn">Login</button>
+          <a href="/user/gosave" >회원가입</a>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

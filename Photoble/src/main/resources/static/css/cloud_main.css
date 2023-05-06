@@ -1,0 +1,187 @@
+body {
+    background-color: white;
+    margin: 0px;
+    overflow: scroll;
+}
+body {
+    background-color: white;
+}
+
+.nav-bar {
+    width: 1920px;
+    height: 250px;
+    background: #396cfd;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: white;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: absolute;
+    left: 1630px;
+    top: 60px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+.notice {
+  display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.division-btn {
+  display: inline;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+.logout {
+  display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.search-btn {
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+}
+.search-bar {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 635px;
+  top: 60px;
+  width: 590px;
+  height: 70px;
+  border-radius: 10px 10px 10px 10px;
+}
+.search-img {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.search-input {
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  display: inline;
+  box-sizing: border-box;
+  width: 650px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.slide-btn {
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  left: 835px;
+  top: 170px;
+  width: 200px;
+  height: 60px;
+}
+.go-notice {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+.go-notice-icon {
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.go-cloud {
+    background-color:#396cfd;
+    color: #396cfd;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+.go-cloud-icon {
+  padding: 2px;
+  width: 50px;
+  height: 40px;
+}
+.upload-btn {
+  position: absolute;
+  left: 1740px;
+  top: 180px;
+}
+.Main {
+    position: absolute;
+    width: 1920px;
+    height: 100%;
+}
+.cloud {
+    width: 1920px;
+    height: 100%;
+}
+.cloud-group {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+}
+.cloud-img-group {
+    margin-left: 80px;
+}
+.division-line {
+    position: absolute;
+    display: inline;
+    width: 100%;
+    height: 4px;
+    background-color: #396cfd;
+}
+.cloud-date {
+    display: inline;
+    position: absolute;
+    margin-left: 380px;
+    padding-top: 5px;
+    top: -15px;
+    text-align: center;
+    background-color: white;
+    color: #396cfd;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.cloud-img {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 270px;
+    height: 270px;
+}

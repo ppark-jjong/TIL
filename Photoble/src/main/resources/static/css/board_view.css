@@ -1,0 +1,283 @@
+body {
+    width: 1920px;
+    height: 100vh;
+    margin: 0px;
+}
+.nav-bar {
+    width: 1920px;
+    height: 200px;
+    background: #396cfd;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: white;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: absolute;
+    left: 1630px;
+    top: 60px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+.notice {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.division-btn {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.delete-btn {
+    display: inline-block;
+    margin-top: -80px;
+    margin-left: 80px;
+    border-radius: 10px 10px 10px 10px;
+    border: 4px solid rgb(151, 19, 19);
+    width: 80px;
+    height: 50px;
+    color: rgb(151, 19, 19);
+    font-size: 16pt;
+    font-weight: 900;
+    background-color: white;
+}
+.logout {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.Main {
+    width: 1920px;
+    height: 100%;
+}
+.division-line1 {
+    overflow: visible;
+    position: absolute;
+    margin-left: 460px;
+    width: 4px;
+    height: 100%;
+    background-color: #396cfd;
+}
+.division-line2 {
+    overflow: visible;
+    position: absolute;
+    margin-left: 1460px;
+    width: 4px;
+    height: 100%;
+    background-color: #396cfd;
+}
+
+
+.content {
+    position: absolute;
+    width: 1920px;
+    height: 880px;
+}
+header {
+    position: absolute;
+    width: 1000px;
+    height: 135px;
+    left: 460px;
+}
+.board-title {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30pt;
+}
+
+
+.user-info {
+    position: absolute;
+    height: 30px;
+    top: 105px;
+    left: 30px;
+}
+.user-name {
+    display: inline;
+}
+.side {
+    display: inline;
+}
+.user-date {
+    display: inline;
+}
+
+
+.comment {
+    width: 400px;
+    height: 200px;
+    height: 30px;
+    position: absolute;
+    top: 105px;
+    left: 890px;
+}
+.comment-icon {
+    display: inline;
+    font-size: 16px;
+}
+.comment-cnt {
+    display: inline;
+    font-size: 16px;
+}
+
+
+.line {
+    position: absolute;
+    background-color: #396cfd;
+    width: 940px;
+    height: 4px;
+    left: 490px;
+    top: 135px;
+}
+
+.Main-image-box {
+    border: #396cfd solid 4px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 100%px;
+    left: 460px;
+    top: 140px;
+    padding-bottom: 20px;
+}
+
+.Main-img {
+    display:block;
+    margin-left: 200px;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment2 {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 500px;
+    margin-top: 150px;
+}
+.comment-icon2 {
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+.comment-cnt2 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16pt;
+}
+
+
+.user-comment {
+    display: block;
+    position: relative;
+    left: 490px;
+    margin-top: 20px;
+}
+.user-comment-input {
+    border: 2px solid #396cfd;
+    box-sizing: border-box;
+    width: 940px;
+    height: 100px;
+}
+.user-comment-admit {
+    background-color: #396cfd;
+    color: white;
+    position: absolute;
+    left: 880px;
+    top: 70px;
+    border: none;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.another-comment-box {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 490px;
+    box-sizing: border-box;
+    width: 940px;
+    height: 80px;
+    border: #396cfd 2px solid;
+}
+.another-user-info {
+    box-sizing: border-box;
+    border: none;
+    display: inline;
+    width: 940px;
+    height: 40px;
+    left: -2px;
+    position: absolute;
+    background-color: #396cfd;
+}
+.another-user-name {
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 18pt;
+    top: -18px;
+}
+.another-sub-info {
+    float: right;
+}
+.remove {
+    display: inline;
+    color: white;
+    background-color: #396cfd;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.another-user-date {
+    display: inline;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+}
+.another-comment-text {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    border: none;
+    top: 40px;
+    width: 940px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 10px;
+}
