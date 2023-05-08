@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.page-container{
+    width: 100vw;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shadow{
+    -webkit-box-shadow: 27px 43px 43px -26px rgba(89,89,89,0.39);
+    -moz-box-shadow: 27px 43px 43px -26px rgba(89,89,89,0.39);
+    box-shadow: 27px 43px 43px -26px rgba(89,89,89,0.39);
+}
+
+.join-form-container{
+    background:#fff ;
+    width: 560px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px black;
+    border-radius: 10px;
+}
+
+.join-form-container h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.join-input-container{
+    width:55%;
+}
+
+.join-input-container .join-input-wrap{
+    width:100%;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border-bottom: solid 2px #333;
+
+}
+
+.join-input-container .join-input-wrap input{
+    background: none;
+    border: none;
+    line-height: 45px;
+    padding-left:10px;
+    width:267px;
+}
+
+.join-input-container .join-input-wrap input:focus{
+    outline: none;
+}
+
+.join-btn-wrap{
+    margin-top: 40px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-btn-wrap .join-btn{
+    width: 8rem;
+    height: 35px;
+    padding: 5px 20px;
+    color:#fff;
+    border: 0;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+/*.join-btn-wrap a{*/
+/*    margin-top: 20px;*/
+/*    text-decoration: none;*/
+/*    font-size: 11px;*/
+/*    color: gray;*/
+
+/*}*/

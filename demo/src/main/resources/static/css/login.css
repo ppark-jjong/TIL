@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shadow {
+    -webkit-box-shadow: 27px 43px 43px -26px rgba(89, 89, 89, 0.39);
+    -moz-box-shadow: 27px 43px 43px -26px rgba(89, 89, 89, 0.39);
+    box-shadow: 27px 43px 43px -26px rgba(89, 89, 89, 0.39);
+}
+
+.login-form-container {
+    background: #333;
+    width: 860px;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px black;
+    border-radius: 10px;
+}
+
+.login-form-left-side {
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(222deg, rgb(0, 0, 0) 0%, rgb(110, 110, 110) 55%, rgb(41, 41, 41) 100%);
+}
+
+.top-logo-wrap img {
+    width: 100px;
+    height: 100px;
+}
+
+.login-form-left-side h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+
+}
+
+.login-form-right-side {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+}
+
+.login-form-right-side h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+.login-input-container {
+    padding-top: 1rem;
+    width: 300px;
+}
+
+.login-input-container .login-input-wrap {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border-bottom: solid 2px #333;
+}
+
+.login-input-container .login-input-wrap input {
+    background: none;
+    border: none;
+    line-height: 45px;
+    padding-left: 10px;
+    width: 267px;
+}
+
+.login-input-container .login-input-wrap input:focus {
+    outline: none;
+}
+
+.login-btn-wrap {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-btn-wrap .login-btn {
+    width: 95px;
+    height: 35px;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+.login-btn-wrap a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    color: gray;
+
+}
