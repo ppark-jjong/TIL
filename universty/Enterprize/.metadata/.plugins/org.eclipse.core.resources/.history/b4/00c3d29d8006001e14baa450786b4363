@@ -1,0 +1,6 @@
+package week11;
+
+public class AnsweredData {
+	private List<String> responses;
+	private
+}

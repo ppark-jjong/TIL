@@ -1,0 +1,18 @@
+package controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import week11.Question;
+
+@Controller
+public class SurveyController {
+	@GetMapping("/survey")
+	public String form(Model model) {
+		List<Question> questions = createQuestions();
+		
+	}
+}

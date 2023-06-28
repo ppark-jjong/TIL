@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Spring-B"/>
+<aop-project name="3-B">
+<aspect-definition advice-class-name="week06.AdviceEx" advice-method-name="welcomeMessage" advice-type="BEFORE" aspect-end-line-number="27" aspect-name="advice" aspect-start-line-number="27" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/3-B/XML/week06/Ex1.xml" pointcut-expression="execution(public * week06.PointcutObj.businessLogic())" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:3-B|3:XML/week06/Ex1.xml|7:beans:6|8:pObj:17" bean-file="/3-B/XML/week06/Ex1.xml" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/3-B/XML/week06/Ex1.xml" source="=3-B/src&lt;week06{AdviceEx.java[AdviceEx~welcomeMessage~QJoinPoint;" source-start-line="13" target="=3-B/src&lt;week06{PointcutObj.java[PointcutObj~businessLogic" target-start-line="7"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>

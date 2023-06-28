@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="UTF-8"%>
+<!-- <spring:message> 커스텀 태그를 사용하기 위해 태그 라이브러리를 import -->
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglibprefix %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

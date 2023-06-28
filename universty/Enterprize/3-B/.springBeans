@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.22.202204280911-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>XML/week02/Ex1.xml</config>
+		<config>XML/week04/Ex1.xml</config>
+		<config>XML/week05/Ex1.xml</config>
+		<config>XML/week05/Ex2.xml</config>
+		<config>XML/week05/Ex4.xml</config>
+		<config>XML/homework/main.xml</config>
+		<config>XML/week06/Ex1.xml</config>
+		<config>XML/homeworkResolve/main.xml</config>
+		<config>XML/homework/main2.xml</config>
+		<config>XML/report2/main.xml</config>
+		<config>XML/mid/main.xml</config>
+		<config>XML/homework/main3.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

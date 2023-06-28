@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<!-- Week 10 -->
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<li><a href="xmlMVC.do">10주 .XML 기반 MVC 실습</a></li>
+	<li><a href="AnnotationMVC">11주 환경설정 클래스 실습</a></li>
+	<li><a href="step1?path=week11&view=registerStep1">11주 매핑 &
+			요청파라미터 & 리다이렉트 실습</a></li>
+	<li><a href="initCommand">11주 커맨드 객체 초기화 실습</a></li>
+	<li><a href="main">11주 컨트롤러에 없는 경로 매핑 실습</a></li>
+	<li><a href="survey">11주, 리스트 프로퍼티 실습</a></li>
+	<li><a href="step1?path=week11&view=messageStep">11주, 메세지 태그
+			실습</a></li>
+</body>
+</html>

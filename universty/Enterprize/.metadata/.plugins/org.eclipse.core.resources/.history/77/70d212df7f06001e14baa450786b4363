@@ -1,0 +1,7 @@
+package week11;
+
+public class Question {
+	private String title;
+	private List<Stirng> options;
+	
+}

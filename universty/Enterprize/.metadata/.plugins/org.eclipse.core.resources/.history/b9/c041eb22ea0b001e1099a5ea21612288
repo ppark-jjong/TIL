@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>상품 목록</h1>
+	<form action="/shopping" method="post" modelAttribute="orderCommand">
+		<c:forEach var="item" items="${items}" varStatus="status">
+			<p>
+				<label>1. 모델명 : ${item.itemName }</label>
+			</p>
+
+			<ul>
+				<li>제조사 :  <input type="text" name="orderCommand.age">${item.maker}</li>
+				<li>가 격 : ${item.price}</li>
+				<li>주 문 : <input type="checkbox" value="주문수량">: <input
+					type="text" name="order.num">
+			</ul>
+			<input type="submit" value="주문하기">
+		</c:forEach>
+	</form>
+</body>
+</html>

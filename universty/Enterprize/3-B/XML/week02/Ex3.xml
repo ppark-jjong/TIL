@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean 태그에서 생성자와 관련된 정보를 명시하지 않을 경우 기본 생성자를 명시해야함 -->
+	<bean name="injectionEx" class="week02.InjectionEx">
+		<property name="smsSend">
+			<ref bean="smsSend" />
+		</property>
+		<!-- property는 주입될 클래스의 멤버변수의 변수명을 name으로 생성 -->
+		<property name="value">
+			<value>30000</value> <!-- String 형식임 -->
+		</property>
+
+	</bean>
+	
+	<!-- 기본 생성자 자바 빈 정의 -->
+	<bean id="smsSend" class="common.SmsSender"></bean>
+
+</beans>

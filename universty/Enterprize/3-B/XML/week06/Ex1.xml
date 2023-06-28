@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+<!-- 
+	<aop:config> 해당 태그를 이용하여 AOP 관련 정보를 지정
+		<aop:aspect id="" ref=""> Aspect를 설정하고 ref는 Advice 메서드 주소를 지정
+			<aop:pointcut expression="" id=""/> expression : 어떤 메서드
+		</aop:aspect>
+	</aop:config> -->
+	
+	<!-- Advice 메서드를 포함하는 클래스를 빈으로 등록 -->
+	<bean id = "advice" class = "week06.AdviceEx"/>
+	<bean id = "pObj" class = "week06.PointcutObj"/>
+	
+	<!-- Aspect 설정 : Advice를 어떤 Pointcut에 적용할 지 설정 -->
+	<aop:config>
+	<!-- id를 이용해 식별명을 설정하고 ref는 Advice 메서드 주소를 지정한다 -->
+		<aop:aspect id="aspect1" ref = "advice"> 
+			<!-- Where (어디 메서드에 넣을꺼냐) / expression을 이용해 실행 방법을 지정 -->
+			<aop:pointcut id="pointcut1"
+			expression="execution(public * week06.PointcutObj.businessLogic())" /> 
+			<!-- pointcut 메서드 실행 전에 welcomeMessage라는 Advice메서드를 호출해라 (주입) -->
+			<aop:before pointcut-ref = "pointcut1" method="welcomeMessage"/>
+		</aop:aspect>
+	</aop:config>
+</beans>

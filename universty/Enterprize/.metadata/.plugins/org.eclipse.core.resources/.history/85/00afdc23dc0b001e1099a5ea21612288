@@ -1,0 +1,22 @@
+package classFile;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class ProductDao {
+
+	private JdbcTemplate jdbcTemplate;
+
+	// 생성자로 DataSource를 받는데 해당 DataSource에는 DB 연결 path와 지정문이 들어있는 메서드를 리턴 받아야 한다
+	public ProductDao(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
+
+	public ProductDao() {
+	}
+	
+	
+	List<Item> selectAll(String maker)
+
+}

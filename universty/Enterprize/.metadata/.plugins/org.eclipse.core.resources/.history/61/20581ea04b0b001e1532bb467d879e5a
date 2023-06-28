@@ -1,0 +1,11 @@
+package config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+@EnableWebMvc //스프링 Mvc설정을 활성화 하는 애노테이션으로써 스프링 MVC에 필요한 다양한 설정을 생성한다
+public class MvcConfig implements WebMvcConfigurer{
+	
+}

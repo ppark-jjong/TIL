@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Mar 2023 17:59:05 GMT</lastBuildDate><item><title><![CDATA[A Bootiful Podcast:  Spring Integration lead Artem Bilan on the latest in Spring Integration 6]]></title><link>https://spring.io/blog/2023/03/30/a-bootiful-podcast-spring-integration-lead-artem-bilan-on-the-latest-in</link><guid isPermaLink="true">https://spring.io/blog/2023/03/30/a-bootiful-podcast-spring-integration-lead-artem-bilan-on-the-latest-in</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;iframe title=&quot;Spring Integration lead Artem Bilan&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=z82h7-13ce172-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Hi, Spring fans! In this installment Josh Long (&lt;a href=&quot;https://twitter.com/starbuxman&quot;&gt;@starbuxman&lt;/a&gt;) talks to Spring Integration lead Artem Bilan (&lt;a href=&quot;https://twitter.com/artem_bilan&quot;&gt;@artem_bilan&lt;/a&gt;) about the latest and greatest in Spring Integration. Spring Integration makes it easier to connect an increasingly larger ecosystem of disparate services and systems.&lt;/p&gt;
+&lt;p&gt;SHOW NOTES:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I wrote an e-book on &lt;a href=&quot;https://bit.ly/springboot3-graalvm-ebook&quot;&gt;AOT and GraalVM support in Spring Boot 3 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;did u see that &lt;a href=&quot;https://www.youtube.com/watch?v=nyR-qzj7O3w&amp;#x26;list=PLgGXSWYM2FpPw8rV0tZoMiJYSCiLhPnOc&amp;#x26;index=1&quot;&gt;Spring Tips video I did last week on Vaadin?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check out this roving 1 hour tour of &lt;a href=&quot;https://www.youtube.com/watch?v=Y2gZz8-yK7Y&quot;&gt;Spring Boot 3 over on the Jetbrains IntelliJ IDEA channel &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I did a &lt;a href=&quot;https://www.youtube.com/watch?v=WJutdzX9hl0&quot;&gt;6m video looking at Spring Boot 3&lt;/a&gt; for the impatient on my channel&lt;/li&gt;
+&lt;li&gt;See you soon at &lt;a href=&quot;https://devnexus.org/&quot;&gt;Devnexus&lt;/a&gt;, &lt;a href=&quot;https://kotlinconf.com/speakers/f2617bc2-d35e-4fd7-9cea-02060f3e1608/&quot;&gt;Kotlin Conf&lt;/a&gt;, and &lt;a href=&quot;https://www.devoxx.fr/&quot;&gt;Devoxx France&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Web Flow 3.0 RC1 Released]]></title><link>https://spring.io/blog/2023/03/30/spring-web-flow-3-0-rc1-released</link><guid isPermaLink="true">https://spring.io/blog/2023/03/30/spring-web-flow-3-0-rc1-released</guid><dc:creator><![CDATA[Rossen Stoyanchev]]></dc:creator><pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m pleased to announce that Spring Web Flow 3.0 RC1 is now available from the &lt;a href=&quot;https://repo.spring.io/ui/native/milestone&quot;&gt;Spring milestone&lt;/a&gt; repository.&lt;/p&gt;
+&lt;p&gt;As mentioned in the &lt;a href=&quot;https://spring.io/blog/2022/08/10/spring-web-flow-3-0-m1-released&quot;&gt;3.0 M1 announcement&lt;/a&gt;, milestone 1 did not include JSF support. This release changes that and upgrades the Spring Faces module to a Spring Framework 6, Jakarta EE, and Java 17 baseline. The &lt;a href=&quot;https://github.com/spring-projects/spring-webflow-samples&quot;&gt;spring-webflow-samples&lt;/a&gt;, including JSF samples, have been upgraded to the latest, and you can use sample changes as pointers for your own upgrades.&lt;/p&gt;
+&lt;p&gt;Spring Web Flow has also migrated from JIRA to GitHub issues recently, and that means you can now search, create, and watch both issues and pull requests, from the project&apos;s &lt;a href=&quot;https://github.com/spring-projects/spring-webflow/issues&quot;&gt;GitHub issues&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;If you have a Spring Web Flow application, with or without JSF, please give this release a try. Your feedback is much appreciated.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud 2022.0.2 Is Available]]></title><link>https://spring.io/blog/2023/03/30/spring-cloud-2022-0-2-is-available</link><guid isPermaLink="true">https://spring.io/blog/2023/03/30/spring-cloud-2022-0-2-is-available</guid><dc:creator><![CDATA[Spencer Gibb]]></dc:creator><pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the &lt;a href=&quot;https://cloud.spring.io&quot;&gt;Spring Cloud 2022.0.2&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2022.0.2/&quot;&gt;Maven Central&lt;/a&gt;. You can check out the 2022.0.2 &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2022.0-Release-Notes#202202&quot;&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Notable Changes in the 2022.0.2 Release Train&lt;/h2&gt;
+&lt;p&gt;See all issues and pull requests included in this release &lt;a href=&quot;https://github.com/orgs/spring-cloud/projects/104/views/1?layout=board&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Spring Cloud Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for external name services using the Fabric8 &lt;code&gt;DiscoveryClient&lt;/code&gt; (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/pull/1243&quot;&gt;#1243&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add Pod metadata and annotations to &lt;code&gt;ServiceInstance&lt;/code&gt; (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/pull/1254&quot;&gt;#1254&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Spring Cloud Contract&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow sendMessage to handle body from file (.&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/pull/1867&quot;&gt;1867&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Relaxed SSL validation with RestTemplate interceptors (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/pull/1869&quot;&gt;#1869&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Spring Cloud Commons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow emitting healthcheck instances in batches (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/issues/1122&quot;&gt;#1122&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Spring Cloud OpenFeign&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Register native reflection hints for user-provided parameters and return types (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/pull/849&quot;&gt;#849&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Support setting FeignClient URL in runtime for native images (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/issues/807&quot;&gt;#807&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Allow setting protocols for underlying OKHttp client (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/pull/825&quot;&gt;#825&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add the possibility to use factory beans for Fallback (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/issues/822&quot;&gt;#822&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Spring Cloud Function&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/milestone/46?closed=1&quot;&gt;Bug Fixes and enhancements&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Spring Cloud Stream&lt;/h3&gt;
+&lt;p&gt;Add support for DLQ in batch mode
+&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/milestone/86?closed=1&quot;&gt;Bug Fixes and enhancements&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Spring Cloud Consul&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue where &lt;code&gt;CONSUL_TOKEN&lt;/code&gt; wasn&apos;t read when using &lt;code&gt;spring.config.import=consul:&lt;/code&gt; (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/issues/738&quot;&gt;738&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ACL Token is now passed to &lt;code&gt;agentCheckPass&lt;/code&gt; (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/issues/770&quot;&gt;770&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The global cache can now be disabled when using Local Response Cache (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/2895&quot;&gt;2895&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;The following modules were updated as part of 2022.0.2:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Issues&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Vault&lt;/td&gt;
+&lt;td&gt;4.0.1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-vault/milestone/55?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
+&lt;td&gt;3.0.1&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
+&lt;td&gt;3.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/57?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Task&lt;/td&gt;
+&lt;td&gt;3.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/milestone/71?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Function&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/milestone/46?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/milestone/112?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/milestone/61?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Consul&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/milestone/67?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/milestone/100?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
+&lt;td&gt;4.0.4&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/milestone/79?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Config&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/milestone/113?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
+&lt;td&gt;4.0.1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/milestone/119?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Build&lt;/td&gt;
+&lt;td&gt;4.0.2&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://twitter.com/SpringCloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependencyManagement&gt;
+    &amp;#x3C;dependencies&gt;
+        &amp;#x3C;dependency&gt;
+            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
+            &amp;#x3C;version&gt;2022.0.2&amp;#x3C;/version&gt;
+            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
+            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
+        &amp;#x3C;/dependency&gt;
+    &amp;#x3C;/dependencies&gt;
+&amp;#x3C;/dependencyManagement&gt;
+&amp;#x3C;dependencies&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    ...
+&amp;#x3C;/dependencies&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;plugins {
+  id &apos;java&apos;
+  id &apos;org.springframework.boot&apos; version &apos;3.0.5&apos;
+  id &apos;io.spring.dependency-management&apos; version &apos;1.1.0&apos;
+}
+
+ext {
+  set(&apos;springCloudVersion&apos;, &quot;2022.0.1&quot;)
+}
+
+dependencies {
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
+  // ...
+  testImplementation &apos;org.springframework.boot:spring-boot-starter-test&apos;
+}
+
+dependencyManagement {
+  imports {
+    mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Context Propagation with Project Reactor 3 - Unified Bridging between Reactive and Imperative]]></title><link>https://spring.io/blog/2023/03/30/context-propagation-with-project-reactor-3-unified-bridging-between-reactive</link><guid isPermaLink="true">https://spring.io/blog/2023/03/30/context-propagation-with-project-reactor-3-unified-bridging-between-reactive</guid><dc:creator><![CDATA[Dariusz J?drzejczyk]]></dc:creator><pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We concluded &lt;a href=&quot;https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud&quot;&gt;the last article&lt;/a&gt; with the thought that Spring Cloud Sleuth¡¯s &lt;code&gt;MANUAL&lt;/code&gt; context propagation strategy is both performant and provides correct semantics. Out of many experiences, the Spring, Micrometer, and Reactor teams created a new context-propagation library. Its goal is to encapsulate the concern of transporting contextual data between &lt;code&gt;ThreadLocal&lt;/code&gt; values and &lt;code&gt;Map&lt;/code&gt;-like structures. Both Micrometer 1.10 and Reactor 3.5 build on top of it to provide a first-class experience between Reactor and imperative code. By using Reactor &lt;code&gt;Context&lt;/code&gt;, we implicitly expose &lt;code&gt;ThreadLocal&lt;/code&gt; values that are used by Micrometer to instrument tracing libraries as well as to populate SLF4J¡¯s &lt;code&gt;MDC&lt;/code&gt; to provide logs that include the tracing identifiers.&lt;/p&gt;
+&lt;p&gt;In this article, we will take a different approach than before. Instead of building our knowledge from the ground up, we¡¯ll start with the ready top-level API available to you and afterwards explain what is happening behind the scenes. At the end, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand why these mechanisms work the way they do.&lt;/li&gt;
+&lt;li&gt;Make the right decisions as to which approach to take in your application or library.&lt;/li&gt;
+&lt;li&gt;Know when and why you needn¡¯t do anything and expect everything to work out-of-the-box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Reactive Context and ThreadLocals&lt;/h2&gt;
+&lt;p&gt;Let¡¯s revisit the example from the first article, where we showed how a &lt;code&gt;delayElement&lt;/code&gt; operator caused a reactive chain to lose the correlation identifier. Let¡¯s recall the code, starting with our actions:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  log(&quot;Adding product: &quot; + productName);
+  return Mono.empty(); // Assume we¡¯re actually storing the product
+}
+
+Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  log(&quot;Notifying shop about: &quot; + productName);
+  return Mono.just(true); // Assume we¡¯re actually notifying the shop
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we need to recall the binding request handler:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  initRequest(); &amp;#x3C;1&gt;
+  log(&quot;Assembling the chain&quot;); // &amp;#x3C;2&gt;
+
+  return Mono.just(&quot;test-product&quot;)
+    .delayElement(Duration.ofMillis(1)) // &amp;#x3C;3&gt;
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product), // &amp;#x3C;4&gt;
+        notifyShop(product)).then())
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Starting from Reactor 3.5.0, Reactor &lt;code&gt;Context&lt;/code&gt; is able to integrate with a new library, under the Micrometer umbrella, called &lt;a href=&quot;https://github.com/micrometer-metrics/context-propagation&quot;&gt;&lt;code&gt;context-propagation&lt;/code&gt;&lt;/a&gt;. We¡¯ll describe that integration in a bit more detail by the end of this article.
+In Reactor 3.5+, when the &lt;code&gt;context-propagation&lt;/code&gt; library is on the classpath, we can expect our &lt;code&gt;ThreadLocal&lt;/code&gt; values to be present when we log in the &lt;code&gt;handle&lt;/code&gt; operator as well as the new &lt;code&gt;tap&lt;/code&gt; operator.&lt;/p&gt;
+&lt;p&gt;To propagate our custom &lt;code&gt;ThreadLocal&lt;/code&gt;, we need to register a &lt;code&gt;ThreadLocalContextAccessor&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;ContextRegistry.getInstance()
+  .registerThreadLocalAccessor(&quot;CORRELATION_ID&quot;,
+    CORRELATION_ID::get,
+    CORRELATION_ID::set,
+    CORRELATION_ID::remove);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For now, the details of the &lt;code&gt;context-propagation&lt;/code&gt; library are not essential to achieve what we need. The only thing we need to know is that we used the key, &lt;code&gt;CORRELATION_ID&lt;/code&gt;, which will be used with the Reactor &lt;code&gt;Context&lt;/code&gt; to restore the &lt;code&gt;ThreadLocal&lt;/code&gt; in our special operators. Let¡¯s modify the rest of the code to use them and log in the dedicated places.&lt;/p&gt;
+&lt;p&gt;We need just one alteration to our request handler:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  initRequest(); // &amp;#x3C;1&gt;
+  log(&quot;Assembling the chain&quot;);
+
+  return Mono.just(&quot;test-product&quot;)
+    .delayElement(Duration.ofMillis(1))
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product),
+        notifyShop(product)).then())
+    .contextCapture(); // &amp;#x3C;2&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The only modification we¡¯re doing is the &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt; &lt;code&gt;contextCapture&lt;/code&gt; operator at the very end of the chain we return to the caller. The job of this operator is to capture current &lt;code&gt;ThreadLocal&lt;/code&gt; values, for which &lt;code&gt;ThreadLocalAccessor&lt;/code&gt; instances are registered in &lt;code&gt;ContextRegistry&lt;/code&gt;, and store them under the same keys in the Reactor &lt;code&gt;Context&lt;/code&gt;. In this particular implementation, our only hope is that the subscription happens immediately after the assembly phase, as in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt;, where we set the &lt;code&gt;ThreadLocal&lt;/code&gt; value.&lt;/p&gt;
+&lt;p&gt;Next, we¡¯ll use the &lt;code&gt;tap&lt;/code&gt; operator to add logging:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  return Mono.&amp;#x3C;Void&gt;empty()
+    .tap(() -&gt; new DefaultSignalListener&amp;#x3C;&gt;() {
+      @Override
+      public void doOnComplete() throws Throwable {
+        log(&quot;Adding product: &quot; + productName);
+      }
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, we are extending the &lt;code&gt;DefaultSignalListener&lt;/code&gt; from &lt;code&gt;reactor-core&lt;/code&gt;¡¯s &lt;code&gt;reactor.core.observability&lt;/code&gt; package. We are only interested in tapping to the completion signal, where we perform the log operation.&lt;/p&gt;
+&lt;p&gt;For the &lt;code&gt;handle&lt;/code&gt; operator, we¡¯ll alter the &lt;code&gt;notifyShop&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  return Mono.just(true)
+    .handle((result, sink) -&gt; {
+      log(&quot;Notifying shop about: &quot; + productName);
+      sink.next(result);
+    });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s see if now, when we call our handler, we¡¯ll get the proper output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;handleRequest().block();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The result is the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][  643805344761543048] Assembling the chain
+[parallel-1][  643805344761543048] Adding product: test-product
+[parallel-1][  643805344761543048] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Great! This is, in fact, the same approach as Spring Cloud Sleuth¡¯s &lt;code&gt;MANUAL&lt;/code&gt; strategy but is integrated into Reactor¡¯s internals, so you need not restore &lt;code&gt;ThreadLocal&lt;/code&gt; values by hand. We chose &lt;code&gt;tap&lt;/code&gt; and &lt;code&gt;handle&lt;/code&gt; because those operators have access to the &lt;code&gt;Subscriber&lt;/code&gt;-bound &lt;code&gt;Context&lt;/code&gt; and allow taking action upon a concrete Reactive Streams signal.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Remember&lt;/em&gt;: Reactor &lt;code&gt;Context&lt;/code&gt; for writing, &lt;code&gt;ThreadLocals&lt;/code&gt; for reading.&lt;/p&gt;
+&lt;p&gt;As a matter of fact, our request handler is a bit dangerous. If we delay the act of subscribing, we will lose the correlation identifier. Consider:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; requestHandler = handleRequest(); // &amp;#x3C;1&gt;
+
+Thread subscriberThread = new Thread(requestHandler::block); // &amp;#x3C;2&gt;
+subscriberThread.start();
+subscriberThread.join();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output is the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 1388809065574796038] Assembling the chain
+[parallel-1][                null] Adding product: test-product
+[parallel-1][                null] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The assembly happened in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt; and the &lt;code&gt;ThreadLocal&lt;/code&gt; was set in &lt;code&gt;main&lt;/code&gt;. However, the subscription happens on a new &lt;code&gt;Thread&lt;/code&gt; in &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt;, which doesn¡¯t have the &lt;code&gt;ThreadLocal&lt;/code&gt; values to capture. Therefore, our logs have no correlation identifiers. We could wrap the body of our handler with &lt;code&gt;Mono.defer()&lt;/code&gt; to solve this issue. However, instead of that, let¡¯s consider whether we need a &lt;code&gt;ThreadLocal&lt;/code&gt; to be actually set in the first place.&lt;/p&gt;
+&lt;p&gt;In an imperative application that invokes a Reactor chain, such as a Spring MVC controller method that calls &lt;code&gt;WebClient&lt;/code&gt;, &lt;code&gt;ThreadLocal&lt;/code&gt; values are already established and &lt;code&gt;contextCapture&lt;/code&gt; will pick them up and store them in the &lt;code&gt;Context&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In a reactive stack, like WebFlux, on the other hand, it makes more sense to use &lt;code&gt;contextWrite&lt;/code&gt; directly.&lt;/p&gt;
+&lt;p&gt;We know that Reactor will use the contents of its &lt;code&gt;Context&lt;/code&gt; to restore &lt;code&gt;ThreadLocal&lt;/code&gt; values. If we directly store the intended values in the &lt;code&gt;Context&lt;/code&gt;, instead of capturing them from the current state, we¡¯ll improve the performance by a tiny bit, but we¡¯ll also improve the compliance with the functional programming paradigm. Let¡¯s try that:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  // initRequest(); -- no write to ThreadLocal
+  log(&quot;Assembling the chain&quot;);
+
+  return Mono.just(&quot;test-product&quot;)
+    // &amp;#x3C;1&gt;
+    .delayElement(Duration.ofMillis(1))
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product),
+        notifyShop(product)).then())
+    .contextWrite(
+      Context.of(&quot;CORRELATION_ID&quot;, correlationId())); // &amp;#x3C;2&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s run it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][                null] Assembling the chain
+[parallel-1][ 7059587638538899074] Adding product: test-product
+[parallel-1][ 7059587638538899074] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nice! Our actual reactive chain contains a proper correlation identifier.&lt;/p&gt;
+&lt;p&gt;Unfortunately, we lost one in the assembly phase. One reason for it is that the log doesn¡¯t happen within a &lt;code&gt;handle&lt;/code&gt; or &lt;code&gt;tap&lt;/code&gt; operator. If we added an initial log in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt; using the &lt;code&gt;tap&lt;/code&gt; operator, we¡¯d be fine. The &lt;code&gt;Context&lt;/code&gt; with the correlation identifier is bound to the chain upstream from &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt;. If we added a logging &lt;code&gt;tap&lt;/code&gt; operator after the &lt;code&gt;contextWrite&lt;/code&gt; call, we¡¯d not see the correct correlation identifier ? the attached &lt;code&gt;Context&lt;/code&gt; at that stage is a different one and doesn¡¯t have our identifier. We¡¯ll get back to this issue in a moment, but first, let¡¯s consider if we can simplify our code and avoid the special operators.&lt;/p&gt;
+&lt;h2&gt;Automatic Context Propagation&lt;/h2&gt;
+&lt;p&gt;When &lt;code&gt;reactor-core&lt;/code&gt; 3.5.0 was released, it was included in Spring Framework 6.0 and Spring Boot 3.0. Existing Spring users who used Spring Cloud Sleuth for tracing were used to having logs populated with &lt;code&gt;trace-id&lt;/code&gt; and &lt;code&gt;span-id&lt;/code&gt; values (similarly to our correlation identifier). A switch to the new paradigm, where observability is part of the core suite of Spring products, would require existing applications to rewrite their logging to use the &lt;code&gt;handle&lt;/code&gt; and &lt;code&gt;tap&lt;/code&gt; operators. We continued thinking how we can make more operators capable of restoring the &lt;code&gt;ThreadLocal&lt;/code&gt; values.&lt;/p&gt;
+&lt;p&gt;As we¡¯ve seen in the previous article, restoring &lt;code&gt;ThreadLocal&lt;/code&gt; values that can span multiple operators is not an easy task. &lt;code&gt;handle&lt;/code&gt; and &lt;code&gt;tap&lt;/code&gt; were chosen, because they do not let &lt;code&gt;ThreadLocal&lt;/code&gt; values leak. No signals are propagated as a result of running the user¡¯s code. The &lt;code&gt;ThreadLocal&lt;/code&gt; values are present when the user code runs. Then the result is captured. Finally, the &lt;code&gt;ThreadLocal&lt;/code&gt; context is cleared. Only afterwards does the reactive propagation of signals happen to downstream operators. Also, we wanted to be more selective, as performing the restoration in every operator has a lot of overhead, as discussed &lt;a href=&quot;https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud&quot;&gt;in part 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We rethought everything carefully and came up with an idea can be combined to the following call (starting from &lt;code&gt;reactor-core&lt;/code&gt; 3.5.3):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Hooks.enableAutomaticContextPropagation();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can add it to the &lt;code&gt;main&lt;/code&gt; method of our application.&lt;/p&gt;
+&lt;p&gt;We can now restore our initial implementation of the action methods:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  log(&quot;Adding product: &quot; + productName);
+  return Mono.empty();
+}
+
+Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  log(&quot;Notifying shop about: &quot; + productName);
+  return Mono.just(true);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We leave the &lt;code&gt;handleRequest&lt;/code&gt; method and subscription on a new &lt;code&gt;Thread&lt;/code&gt; unchanged. Let¡¯s run it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][                null] Assembling the chain
+[parallel-1][ 8362586195225273235] Adding product: test-product
+[parallel-1][ 8362586195225273235] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Success!&lt;/p&gt;
+&lt;p&gt;With this feature, we can migrate an existing codebase that uses Spring Cloud Sleuth to the new Spring Framework without doing any changes to the way we log. With the above hook, if you use Spring Boot Actuator with Micrometer Tracing, the SLF4J logs have tracing information populated without the need to do anything. Soon, Spring Boot will automatically call the hook for you.&lt;/p&gt;
+&lt;h2&gt;Writing Framework Code&lt;/h2&gt;
+&lt;p&gt;We mentioned that we¡¯d get back to the problem with the log at assembly time. So far, we¡¯ve been initiating the correlation identifier generation process in our request handling logic. Ideally, our handler should be called by the server and the resulting &lt;code&gt;Publisher&lt;/code&gt; (&lt;code&gt;Flux&lt;/code&gt; or &lt;code&gt;Mono&lt;/code&gt;) subscribed to from the calling code. Our handler is back to the initial shape:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  log(&quot;Assembling the chain&quot;);
+
+  return Mono.just(&quot;test-product&quot;)
+    .delayElement(Duration.ofMillis(1))
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product),
+        notifyShop(product)).then());
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s imitate the server code by attaching the context to the returned &lt;code&gt;Mono&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; requestHandler = handleRequest()
+  .contextWrite(Context.of(&quot;CORRELATION_ID&quot;, correlationId()));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we need to run it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;requestHandler.block();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The assembly time is still missing the correlation identifier:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][                null] Assembling the chain
+[parallel-1][ 5508113792645841519] Adding product: test-product
+[parallel-1][ 5508113792645841519] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;contextWrite&lt;/code&gt; operator restores &lt;code&gt;ThreadLocal&lt;/code&gt; values during subscription time (as well as for other lifecycle events). To have the user code have logs during the assembly time, the entire call to that code needs to be part of a reactive chain. In that way, the user¡¯s code is executed during subscription of the outer &lt;code&gt;Mono&lt;/code&gt; and the returned inner &lt;code&gt;Mono&lt;/code&gt; is subscribed to immediately. For the entire execution, the outer &lt;code&gt;Mono&lt;/code&gt;¡¯s &lt;code&gt;Context&lt;/code&gt; is made available in &lt;code&gt;ThreadLocal&lt;/code&gt;s if we do this in our ¡°framework¡± code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; requestHandler = Mono.defer(() -&gt; handleRequest())
+  .contextWrite(Context.of(&quot;CORRELATION_ID&quot;, correlationId()));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All that we needed to do was use &lt;code&gt;Mono.defer()&lt;/code&gt; and attach the &lt;code&gt;Context&lt;/code&gt; to it.&lt;/p&gt;
+&lt;p&gt;Luckily, Spring Framework does its job well and handles our assembly during the subscription phase as well.&lt;/p&gt;
+&lt;h2&gt;Are We Done Solving the Context-propagation Problem?&lt;/h2&gt;
+&lt;p&gt;This new approach looks very encouraging. One might wonder, with the approaches taken in the past, how will this new mechanism break? We feel more confident about this approach because it is more aligned with the nature of Reactive Streams. The approaches that were not based around Reactor &lt;code&gt;Context&lt;/code&gt; had one major misconception embedded in them ? they propagate &lt;code&gt;ThreadLocal&lt;/code&gt; values downstream ? hopefully, trying to clean up at some point. However, there were no semantic boundaries for the propagation to stop.&lt;/p&gt;
+&lt;p&gt;Relying on downstream propagation of &lt;code&gt;ThreadLocal&lt;/code&gt; values can be a source of errors, too. Reactive libraries propagate signals upstream and downstream. One signal potentially triggers another signal, but it doesn¡¯t have to. A different &lt;code&gt;Thread&lt;/code&gt; can continue processing. Certain optimizations (such as prefetching) that are done by &lt;code&gt;flatMap&lt;/code&gt;-like operators, can request and enqueue values from the upstream, without our downstream propagating mechanism being involved.
+If we want to be able to have contextual information even when we log at the time of backpressure or cancellation, we need to take all the possible signals into account.&lt;/p&gt;
+&lt;p&gt;One important observation comes from the way the &lt;code&gt;Context&lt;/code&gt; dictates logical boundaries. When you call &lt;code&gt;contextWrite&lt;/code&gt; and store a value in the &lt;code&gt;Context&lt;/code&gt;, all the upstream operators have access to the modified version. All the downstream operators won¡¯t see the modification but will see the state upon which your modification is based.&lt;/p&gt;
+&lt;p&gt;The nature of a &lt;code&gt;Subscriber&lt;/code&gt;-bound &lt;code&gt;Context&lt;/code&gt; serves as the basis for our new approach. We modified the &lt;code&gt;contextWrite&lt;/code&gt; operator to set &lt;code&gt;ThreadLocal&lt;/code&gt; values to reflect the current &lt;code&gt;Context&lt;/code&gt; when signals travel upstream at subscription time, as well as at cancellation and request. But it resets those &lt;code&gt;ThreadLocal&lt;/code&gt; values to the ones represented in the downstream &lt;code&gt;Context&lt;/code&gt; whenever a signal is propagated downstream.&lt;/p&gt;
+&lt;p&gt;We still need to use the &lt;code&gt;Scheduler&lt;/code&gt; wrapping approach. We also need the &lt;code&gt;Queue&lt;/code&gt; wrapping approach (&lt;a href=&quot;https://github.com/reactor/reactor-core/issues/3369&quot;&gt;for which we need to improve the lifecycle semantics&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;But we might consider improving the situation by &lt;a href=&quot;https://github.com/reactor/reactor-core/pull/2983&quot;&gt;transporting the Reactor &lt;code&gt;Context&lt;/code&gt;&lt;/a&gt; in those cases instead of capturing the &lt;code&gt;ThreadLocal&lt;/code&gt; values. That could improve the performance.&lt;/p&gt;
+&lt;p&gt;Also, when we work with &lt;code&gt;Publisher&lt;/code&gt;s that are outside of Reactor¡¯s control or sources that use &lt;code&gt;Thread&lt;/code&gt;s that we don¡¯t control (like with the &lt;code&gt;Mono.fromFuture()&lt;/code&gt; example to mimic a remote call) we still lose the &lt;code&gt;ThreadLocal&lt;/code&gt; values. A mitigation for now is to introduce the semantic boundary of &lt;code&gt;contextWrite&lt;/code&gt; operator, which doesn¡¯t really change the &lt;code&gt;Context&lt;/code&gt;, as in this variation of the &lt;code&gt;notifyShop&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  log(&quot;Notifying shop about: &quot; + productName);
+  return makeRequest(productName) // &amp;#x3C;1&gt;
+    .contextWrite(Function.identity()) // &amp;#x3C;2&gt;
+    .doOnNext(r -&gt; log(&quot;Request done.&quot;)); // &amp;#x3C;3&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;makeRequest&lt;/code&gt; method was defined &lt;a href=&quot;https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud&quot;&gt;in the previous article&lt;/a&gt; in the series. If we assume &lt;code&gt;makeRequest&lt;/code&gt; is a 3rd-party library call, which uses &lt;code&gt;Thread&lt;/code&gt;s we can¡¯t control, we also can¡¯t wrap the code it executes in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt; and within the asynchronous code that completes its operation. Any logs done by that part of the chain won¡¯t be populated with the correlation identifier. It would be the library author¡¯s responsibility to propagate such context. However, because we used the boundary in &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt;, our log in &lt;code&gt;&amp;#x3C;3&gt;&lt;/code&gt; contains the correlation identifier.&lt;/p&gt;
+&lt;p&gt;We &lt;a href=&quot;https://github.com/reactor/reactor-core/issues/3366&quot;&gt;intend to add the necessary functionality&lt;/a&gt; in &lt;code&gt;reactor-core&lt;/code&gt; to provide such a boundary for sources that can change &lt;code&gt;Threads&lt;/code&gt; in a way that is outside of Reactor¡¯s control.&lt;/p&gt;
+&lt;p&gt;In imperative scenarios, that call reactive code only to use a blocking subscription (by using &lt;code&gt;block()&lt;/code&gt; for example), &lt;a href=&quot;https://github.com/reactor/reactor-core/issues/3406&quot;&gt;we plan to automatically perform &lt;code&gt;contextCapture&lt;/code&gt;&lt;/a&gt; to transparently propagate current &lt;code&gt;ThreadLocal&lt;/code&gt; values into the reactive chain. This will be useful when interacting with WebClient in a Spring MVC application for instance.&lt;/p&gt;
+&lt;h2&gt;Context-propagation Library&lt;/h2&gt;
+&lt;p&gt;The task of capturing &lt;code&gt;ThreadLocal&lt;/code&gt; state and restoring it in various places is an interesting subject on its own. Usually, we think of multiple &lt;code&gt;ThreadLocal&lt;/code&gt; values that have a logical connection to each other or a &lt;code&gt;Map&lt;/code&gt;-like structure corresponding to various concerns. We have created a dedicated library that allows transforming between &lt;code&gt;ThreadLocal&lt;/code&gt;s and arbitrary objects by capturing their state and restoring it into the respective target. In the preceding examples, we used some of the API of the &lt;a href=&quot;https://github.com/micrometer-metrics/context-propagation&quot;&gt;&lt;code&gt;context-propagation&lt;/code&gt;&lt;/a&gt; library. It is open sourced under the Micrometer umbrella, and, if you¡¯d like to use it in your code, it has &lt;a href=&quot;https://micrometer.io/docs/contextPropagation&quot;&gt;reference documentation&lt;/a&gt; with examples, too.&lt;/p&gt;
+&lt;p&gt;Project Reactor registers a &lt;code&gt;ContextAccessor&lt;/code&gt; that deals with the Reactor &lt;code&gt;Context&lt;/code&gt;, using the &lt;code&gt;ServiceLoader&lt;/code&gt; JDK mechanism. On the other end, Micrometer registers an &lt;code&gt;ObservationThreadLocalAccessor&lt;/code&gt;, that deals with the &lt;code&gt;ThreadLocal&lt;/code&gt; state necessary for Micrometer Tracing and other instrumentation mechanisms to work using the single &lt;code&gt;Observation&lt;/code&gt; concept.&lt;/p&gt;
+&lt;p&gt;We highly recommend trying out Spring Boot with Spring Boot Actuator to enable the &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.micrometer-tracing&quot;&gt;tracing capabilities&lt;/a&gt; and see for yourself how cohesive the experience is.&lt;/p&gt;
+&lt;h2&gt;Wrapping up&lt;/h2&gt;
+&lt;p&gt;In this series of blog posts, we covered the basics of Context Propagation and we covered the history and status quo of bridging between the imperative and reactive programming paradigms. We do hope you can now confidently use the features we implemented. In the best case scenario, there isn¡¯t much work for you to do if you go with the automatic context propagation feature. Also, in this interesting scenario, we hope your custom propagation logic can take advantage of the primitives we¡¯ve described in this article. You can &lt;a href=&quot;https://projectreactor.io&quot;&gt;reach out to us&lt;/a&gt; if you have questions or &lt;a href=&quot;https://github.com/reactor/reactor-core/issues&quot;&gt;report issues on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;This series would not have been published without the help of my colleagues reviewing every bit. I¡¯d like to thank (in alphabetical order): Simon Basl?, Jay Bryant, Pierre De Rop, Oleh Dokuka, Marcin Grzejszczak, Robert McNees, Rossen Stoyanchev, and Tadaya Tsuyukubo.&lt;/p&gt;
+&lt;h2&gt;Bonus&lt;/h2&gt;
+&lt;p&gt;To play with the examples used, feel free to use &lt;a href=&quot;https://github.com/chemicL/reactor-lab/tree/main/src/main/java/dev/jedrzejczyk/reactorlab/contextpropagation&quot;&gt;the relevant package in my GitHub repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Context Propagation with Project Reactor 2 - The bumpy road of Spring Cloud Sleuth]]></title><link>https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud</link><guid isPermaLink="true">https://spring.io/blog/2023/03/29/context-propagation-with-project-reactor-2-the-bumpy-road-of-spring-cloud</guid><dc:creator><![CDATA[Dariusz J?drzejczyk]]></dc:creator><pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring Cloud Sleuth recently &lt;a href=&quot;https://micrometer.io/docs/tracing&quot;&gt;became Micrometer Tracing&lt;/a&gt;, part of the Micrometer project. Most of the tracing instrumentation is centered within Micrometer under the new &lt;a href=&quot;https://micrometer.io/docs/observation&quot;&gt;Observability API&lt;/a&gt;. The goal of these projects is to enable observability of any application ? in the form of metrics, tracing, and logs that contain correlation identifiers. To achieve this goal, libraries require a way to transport contextual information. When applications deal with asynchrony in any form, that task becomes quite a challenge. In the previous article, we went through the basics of context propagation with &lt;code&gt;ThreadLocal&lt;/code&gt;s and Reactor &lt;code&gt;Context&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Cloud Sleuth went through many pivots in the approach to asynchronous context propagation. As Sleuth deals with third-party instrumentation libraries that don¡¯t need to have a reactive API, having an established way to make the context available to them is vital. These libraries often don¡¯t assume asynchrony but rely on a static &lt;code&gt;ThreadLocal&lt;/code&gt; state. For years, &lt;code&gt;ThreadLocal&lt;/code&gt;s have provided JVM applications with implicit, contextual storage for driving the observability features. Over time, Project Reactor introduced various hooks and wrapping mechanisms on top of the underlying primitives in order to make the bridging between reactive and imperative possible. In this article, we aim to explore the approaches to propagate context to &lt;code&gt;ThreadLocal&lt;/code&gt; values and discuss the potential errors with them. We¡¯ll explore the approaches Sleuth took and conclude with a summary of what we discovered as a good compromise that is performant and semantically sound.&lt;/p&gt;
+&lt;p&gt;Before we describe the approaches that Sleuth introduced, we should consider the dangers that lie in bridging between the imperative and reactive world.&lt;/p&gt;
+&lt;h2&gt;Pitfalls of Side Effects in the Face of Hidden Concurrency&lt;/h2&gt;
+&lt;p&gt;We discussed some of the potential problems with &lt;code&gt;Thread&lt;/code&gt; switches and related side effects in the previous article. Now we will explore the properties of reactive programming a little more by using Reactor¡¯s plugin mechanism to solve issues that we may encounter.&lt;/p&gt;
+&lt;p&gt;To summarize all the issues Spring Cloud Sleuth ran into is a moving target. Also, there are numerous implementations in organizations that implement their own mechanisms for context propagation, for example, for populating SLF4J¡¯s &lt;code&gt;MDC&lt;/code&gt;. This article is not intended to be a comprehensive summary of all the potential pitfalls. It rather aims to build some intuition that will help you understand the ultimate truth: you either play by reactive programming rules or you prepare to lose in the most unexpected moments.&lt;/p&gt;
+&lt;h2&gt;Scheduler Hook&lt;/h2&gt;
+&lt;p&gt;As we know, reactive chains can propagate signals using different &lt;code&gt;Thread&lt;/code&gt;s. From what we learned in &lt;a href=&quot;https://spring.io/blog/2023/03/28/context-propagation-with-project-reactor-1-the-basics&quot;&gt;the previous article&lt;/a&gt;, when execution is continued on another &lt;code&gt;Thread&lt;/code&gt;, it makes sense to restore the context when a task is run. Project Reactor delegates the task of managing &lt;code&gt;Thread&lt;/code&gt;s to &lt;code&gt;Scheduler&lt;/code&gt;s. It also provides a dedicated hook that allows intercepting the scheduling and running of a particular unit of work: the &lt;code&gt;Schedulers.onScheduleHook&lt;/code&gt;. It works in a similar way as the &lt;code&gt;WrappedExecutor&lt;/code&gt; from the previous article. Let¡¯s see a scenario when we might consider using it.&lt;/p&gt;
+&lt;h3&gt;Cleanup&lt;/h3&gt;
+&lt;p&gt;In Part 1 we understood that we can¡¯t rely on &lt;code&gt;ThreadLocal&lt;/code&gt; values to be available consistently within a reactive chain. What if we tried to initialize it at subscription time, and clear it in the &lt;code&gt;doFinally&lt;/code&gt; operator?
+Our applications can handle many requests, some of them concurrently, using a limited number of &lt;code&gt;Thread&lt;/code&gt;s. As those platform &lt;code&gt;Thread&lt;/code&gt;s can be reused, we need to perform cleanup of any &lt;code&gt;ThreadLocal&lt;/code&gt; state associated with one request before processing another so that a different request does not use a leftover correlation identifier.&lt;/p&gt;
+&lt;p&gt;The code samples that follow are alterations to the code we wrote in the previous part, in which we didn¡¯t use the Reactor &lt;code&gt;Context&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A potential implementation of the &lt;code&gt;handleRequest&lt;/code&gt; method could look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  return Mono.fromSupplier(() -&gt; {
+    initRequest(); // &amp;#x3C;1&gt;
+    return &quot;test-product&quot;;
+  }).flatMap(product -&gt;
+    Flux.concat(
+      addProduct(product),
+      notifyShop(product)).then())
+    .doOnSuccess(v -&gt; log(&quot;Done.&quot;))
+    .doFinally(signalType -&gt;
+      CORRELATION_ID.remove()); // &amp;#x3C;2&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt; we set the &lt;code&gt;ThreadLocal&lt;/code&gt; value, and in &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt; we attempt to clear it.&lt;/p&gt;
+&lt;p&gt;We also modify the actions we perform to be able to add an artificial delay in the &lt;code&gt;addProduct&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  return Mono.defer(() -&gt; {
+    log(&quot;Adding product: &quot; + productName);
+    return Mono.&amp;#x3C;Void&gt;empty()
+      .delaySubscription(Duration.ofMillis(10),
+        Schedulers.single()); // &amp;#x3C;1&gt;
+  });
+}
+
+Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  return Mono.defer(() -&gt; {
+    log(&quot;Notifying shop about: &quot; + productName);
+    return Mono.just(true);
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that, in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt;, we introduce asynchrony by delaying the subscription and use &lt;code&gt;Schedulers.single()&lt;/code&gt; to initiate the subscription after 10ms. The &lt;code&gt;delaySubscription&lt;/code&gt; will use that &lt;code&gt;Scheduler&lt;/code&gt;¡¯s underlying &lt;code&gt;ScheduledExecutorService&lt;/code&gt; and initiate the subscription on another &lt;code&gt;Thread&lt;/code&gt; after the delay.&lt;/p&gt;
+&lt;p&gt;From the previous article, we know we need to restore &lt;code&gt;ThreadLocals&lt;/code&gt; in such a case, so we use the mentioned &lt;code&gt;Scheduler&lt;/code&gt; plugin to achieve that:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Schedulers.onScheduleHook(&quot;context.propagation&quot;, WrappedRunnable::new);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Every task executed on Reactor¡¯s &lt;code&gt;Scheduler&lt;/code&gt;s will restore the &lt;code&gt;ThreadLocal&lt;/code&gt; values, so we should be safe.&lt;/p&gt;
+&lt;p&gt;Now, let¡¯s imitate two sequential requests, separated by a log validating that &lt;code&gt;CORRELATION_ID&lt;/code&gt; is cleared properly:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;log(&quot;Got first request, calling handler&quot;);
+handleRequest().block();
+
+log(&quot;Got second request, calling handler&quot;);
+log(&quot;There should be no correlationId on this line!&quot;);
+
+handleRequest().block();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The logs are as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][                null] Got first request, calling handler // &amp;#x3C;1&gt;
+[      main][ 8658769170992364531] Adding product: test-product
+[  single-1][ 8658769170992364531] Notifying shop about: test-product
+[  single-1][ 8658769170992364531] Done.
+[      main][ 8658769170992364531] Got second request, calling handler
+[      main][ 8658769170992364531] There should be no correlationId on this line!
+[      main][  711436174608061530] Adding product: test-product
+[  single-1][  711436174608061530] Notifying shop about: test-product
+[  single-1][  711436174608061530] Done.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The logs related to &lt;code&gt;¡°test-product¡±&lt;/code&gt; processing have correct correlation identifiers. However, what happened in between the requests? We expected to have the &lt;code&gt;ThreadLocal&lt;/code&gt; be cleared in &lt;code&gt;doFinally&lt;/code&gt;. Unfortunately, the log in between requests still contains an identifier. What happened then?&lt;/p&gt;
+&lt;p&gt;Notice the &lt;code&gt;¡°Notifying shop about¡±&lt;/code&gt; log happened on &lt;code&gt;Thread&lt;/code&gt; &lt;code&gt;single-1&lt;/code&gt;. The signal was delivered on that &lt;code&gt;Thread&lt;/code&gt;, so we cleared the &lt;code&gt;ThreadLocal&lt;/code&gt; there, but left the main &lt;code&gt;Thread&lt;/code&gt; polluted (in &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt;). Now the execution outside of our handler can use the wrong correlation identifier for different purposes. We could try to mitigate this issue by adding cleanup logic to the server layer (which dispatches requests) and make sure every &lt;code&gt;Thread&lt;/code&gt; used for a request is not polluted. This wouldn¡¯t save all the other potential &lt;code&gt;Scheduler&lt;/code&gt; &lt;code&gt;Thread&lt;/code&gt;s if our pipeline were more complex.&lt;/p&gt;
+&lt;p&gt;This approach gets quite far in allowing an application to use &lt;code&gt;ThreadLocal&lt;/code&gt; values transparently within a reactive chain. It¡¯s also reasonable from a performance perspective, since it does not set and reset &lt;code&gt;ThreadLocal&lt;/code&gt; around every operator, but only when there is a &lt;code&gt;Thread&lt;/code&gt; switch when processing the items. However, it also shows there are side effects that remain unsolved. In the next examples we will experience and attempt to tackle different scenarios.&lt;/p&gt;
+&lt;h3&gt;Difficulties with External Sources and Sinks&lt;/h3&gt;
+&lt;p&gt;Another common issue for the strategies that use &lt;code&gt;ThreadLocal&lt;/code&gt; as the transport mechanism for contextual metadata is when a different asynchronous library than Reactor is used and it switches &lt;code&gt;Thread&lt;/code&gt;s on its own. When the execution changes to a different &lt;code&gt;Thread&lt;/code&gt; that is not controlled by a wrapped &lt;code&gt;ExecutorService&lt;/code&gt;, the context is lost.&lt;/p&gt;
+&lt;p&gt;Let¡¯s see this in action. We will reuse most of the code we¡¯ve seen so far, with one change to the &lt;code&gt;notifyShop&lt;/code&gt; method. It now imitates a remote call by using the following method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Boolean&gt; makeRequest(String productName) {
+  return Mono.fromFuture(CompletableFuture.supplyAsync(() -&gt; true,
+    CompletableFuture.delayedExecutor(100, TimeUnit.MILLISECONDS)));
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So &lt;code&gt;notifyShop&lt;/code&gt; looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  return Mono.defer(() -&gt; {
+    log(&quot;Notifying shop about: &quot; + productName);
+    return makeRequest(productName);
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If we trigger the handler once:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;handleRequest().block();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We get the following output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][  683056557275963407] Adding product: test-product
+[  single-1][  683056557275963407] Notifying shop about: test-product
+[l-worker-1][                null] Done!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The logs shorten the &lt;code&gt;Thread&lt;/code&gt; names for better visibility, but &lt;code&gt;l-worker-1&lt;/code&gt; is actually a shortened version of &lt;code&gt;ForkJoinPool.commonPool-worker-1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As we can see, our execution continued on a common &lt;code&gt;ForkJoinPool&lt;/code&gt; that we don¡¯t control. One problem is that we no longer see our correlation identifier starting from that &lt;code&gt;Thread&lt;/code&gt; switch, but another is that we perform cleanup on a &lt;code&gt;Thread&lt;/code&gt; that is actually missing the correlation information.&lt;/p&gt;
+&lt;p&gt;We could potentially improve the situation (partially) with &lt;code&gt;Executor&lt;/code&gt; or task wrapping, as presented in the previous article, but we don¡¯t always have such control - for example, if we call an external library that uses &lt;code&gt;CompletableFuture&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Operator Hooks&lt;/h2&gt;
+&lt;p&gt;We¡¯re almost ready to discuss Sleuth¡¯s strategies. &lt;code&gt;Schedulers.onScheduleHook&lt;/code&gt; offers limited capability with regards to the non-obvious &lt;code&gt;Thread&lt;/code&gt; switches that can happen in reactive processing. We need more control over the execution of operations. We will demonstrate the limitations by introducing two flavors of external service communication.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;addProduct&lt;/code&gt; method now makes a remote request and publishes the result on a &lt;code&gt;Scheduler&lt;/code&gt; we control. It is common to offload heavy computations to a different &lt;code&gt;Thread&lt;/code&gt;. For that purpose, we use the &lt;code&gt;publishOn&lt;/code&gt; operator:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  return Mono.defer(() -&gt; {
+    log(&quot;Adding product: &quot; + productName);
+    return makeRequest(productName)
+      .publishOn(Schedulers.single())
+      .then();
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;notifyShop&lt;/code&gt; method emulates mapping the result into potentially multiple &lt;code&gt;Publisher&lt;/code&gt;s. That can be a typical scenario in case the response is a composite result - for example, if the response is a JSON array and we intend to process each item as a separate call to another service or enrich the individual result. Let¡¯s use a simplified version and take only a single result:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  return Mono.defer(() -&gt; {
+    log(&quot;Notifying shop about: &quot; + productName);
+    return makeRequest(productName)
+      .flatMapMany(result -&gt;
+        Flux.just(&quot;result&quot;)
+          .map(x -&gt; result))
+          .take(1)
+          .single();
+    });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s skip the handler for now and manually initiate the correlation identifiers and then subscribe to these chains:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;initRequest();
+addProduct(&quot;test-product&quot;)
+  .doOnSuccess(v -&gt; log(&quot;Added.&quot;))
+  .block();
+
+initRequest();
+notifyShop(&quot;test-product&quot;)
+  .doOnSuccess(v -&gt; log(&quot;Notified.&quot;))
+  .block();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s see the output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 6606077262934500649] Adding product: test-product
+[  single-1][                null] Added.
+[      main][  182687922231622589] Notifying shop about: test-product
+[l-worker-1][                null] Notified.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is expected, as both logs that happen in &lt;code&gt;doOnSuccess&lt;/code&gt; are triggered as a result of the &lt;code&gt;CompletableFuture&lt;/code&gt; delivering the value on a &lt;code&gt;ForkJoinPool&lt;/code&gt; &lt;code&gt;Thread&lt;/code&gt;. Even though we have &lt;code&gt;Scheduler&lt;/code&gt; wrapping, the result is first delivered on a &lt;code&gt;Thread&lt;/code&gt; we don¡¯t control, so even &lt;code&gt;publishOn&lt;/code&gt; used in &lt;code&gt;addProduct&lt;/code&gt; doesn¡¯t help.&lt;/p&gt;
+&lt;p&gt;Can we do anything to improve the situation? Reactor has a fine-grained plugin system, which lets us decorate any operator within any pipeline. We can try to use it for the purpose of restoring the correlation identifier.&lt;/p&gt;
+&lt;p&gt;The plugins will use a custom &lt;code&gt;Subscriber&lt;/code&gt; implementation, which captures the correlation identifier upon subscription:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static class CorrelatingSubscriber&amp;#x3C;T&gt; implements CoreSubscriber&amp;#x3C;T&gt; {
+  final CoreSubscriber&amp;#x3C;T&gt; delegate;
+  Long correlationId;
+
+  public CorrelatingSubscriber(CoreSubscriber&amp;#x3C;T&gt; delegate) {
+    this.delegate = delegate;
+  }
+
+  @Override
+  public void onSubscribe(Subscription s) {
+    delegate.onSubscribe(s);
+    this.correlationId = CORRELATION_ID.get();
+  }
+
+  @Override
+  public void onNext(T t) {
+    CORRELATION_ID.set(this.correlationId);
+    delegate.onNext(t);
+  }
+
+  @Override
+  public void onError(Throwable t) {
+    CORRELATION_ID.set(this.correlationId);
+    delegate.onError(t);
+  }
+
+  @Override
+  public void onComplete() {
+    CORRELATION_ID.set(this.correlationId);
+    delegate.onComplete();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To alter an operator to have our implementation delegate calls to an actual &lt;code&gt;Subscriber&lt;/code&gt; instance, we can use the &lt;code&gt;Operators.lift&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Operators.lift((scannable, subscriber) -&gt;
+  new CorrelatingSubscriber&amp;#x3C;&gt;(subscriber));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;onEachOperator Hook&lt;/h3&gt;
+&lt;p&gt;First, we¡¯ll try a plugin, which lets us alter every single operator in the chain:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Hooks.onEachOperator(
+  Operators.lift((scannable, subscriber) -&gt;
+    new CorrelatingSubscriber&amp;#x3C;&gt;(subscriber)));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s run our example once more and examine the output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 7295088917002526647] Adding product: test-product
+[  single-1][ 7295088917002526647] Added.
+[      main][  383851863754448684] Notifying shop about: test-product
+[l-worker-1][  383851863754448684] Notified.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Wow! We managed to get the correlation identifier even in such complicated scenarios. The initial act of subscribing caught the &lt;code&gt;ThreadLocal&lt;/code&gt; value and restored it in each step. Even the &lt;code&gt;flatMap&lt;/code&gt; used in the &lt;code&gt;notifyShop&lt;/code&gt; method (which subscribes on its own) works, because, prior to subscribing on another &lt;code&gt;Thread&lt;/code&gt;, the &lt;code&gt;ThreadLocal&lt;/code&gt; is populated from a previous capture! This does sound wonderful indeed, but there are drawbacks of this approach. The first and most obvious one is performance. The propagation takes place for each and every operator. With that technique, we first decorate every object, as well as make &lt;code&gt;ThreadLocal&lt;/code&gt; accesses in every step. All of them are expensive. To learn more, watch &lt;a href=&quot;https://www.youtube.com/watch?v=pyqIpqCt8PU&quot;&gt;Oleh¡¯s talk about Reactive Performance&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;onLastOperator Hook&lt;/h3&gt;
+&lt;p&gt;So let¡¯s try a different approach. This time, we¡¯ll use a plugin that attaches to every operator that is considered the last one in the chain ? an operator directly before a &lt;code&gt;subscribe()&lt;/code&gt; call.&lt;/p&gt;
+&lt;p&gt;One observation can be made about reactive chains: In the case of synchronous operators, we don¡¯t need to restore the initially captured context in each individual manipulation (for example, &lt;code&gt;filter&lt;/code&gt; or &lt;code&gt;map&lt;/code&gt;) but only when the last operator in the chain is subscribed to. This mechanism works as long as there is no &lt;code&gt;Thread&lt;/code&gt; boundary crossing involved. To support operators that potentially cross these boundaries (such as &lt;code&gt;flatMap&lt;/code&gt;, which involves subscribing to a new &lt;code&gt;Publisher&lt;/code&gt;), there is a special trick involved. It treats the results of the mapping as the last operators for the internal &lt;code&gt;Publishers&lt;/code&gt; that they operate on.&lt;/p&gt;
+&lt;p&gt;Let¡¯s try this approach:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Hooks.onLastOperator(
+  Operators.lift((scannable, subscriber) -&gt;
+    new CorrelatingSubscriber&amp;#x3C;&gt;(subscriber)));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And run:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 2122332013640150746] Adding product: test-product
+[  single-1][ 2122332013640150746] Added.
+[      main][  459477771449275997] Notifying shop about: test-product
+[l-worker-1][                null] Notified.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It worked with &lt;code&gt;publishOn&lt;/code&gt; in &lt;code&gt;addProduct&lt;/code&gt; but fails for the &lt;code&gt;flatMap&lt;/code&gt; in &lt;code&gt;notifyShop&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Let¡¯s analyze why &lt;code&gt;notifyShop&lt;/code&gt; fails. Our call to &lt;code&gt;block()&lt;/code&gt; captures the &lt;code&gt;ThreadLocal&lt;/code&gt; and restores it for every signal traveling downstream. With the mapping done in &lt;code&gt;flatMapMany&lt;/code&gt;, we are dealing with an asynchronous boundary that we mentioned before. Our plugin is, in fact, applied to the internal source (&lt;code&gt;Flux.just().map().single()&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;However, these efforts still didn¡¯t help, despite the fact that the custom &lt;code&gt;Subscriber&lt;/code&gt; is called internally in &lt;code&gt;flatMapMany&lt;/code&gt; and tries to restore the &lt;code&gt;ThreadLocal&lt;/code&gt; value. The signal triggering the internal subscription was initiated on a &lt;code&gt;Thread&lt;/code&gt; we don¡¯t control, so we have no &lt;code&gt;ThreadLocal&lt;/code&gt; to capture in the first place.&lt;/p&gt;
+&lt;p&gt;It is different in the case of the &lt;code&gt;publishOn&lt;/code&gt; operator. The subscription to it begins in a &lt;code&gt;Thread&lt;/code&gt; we control. Therefore, when a signal is processed as a result from the &lt;code&gt;makeRequest()&lt;/code&gt; method, it is only delivered on a &lt;code&gt;Thread&lt;/code&gt; that is in our control. The execution of &lt;code&gt;.doOnSuccess(v -&gt; log(&quot;Added.&quot;))&lt;/code&gt; happens after a different &lt;code&gt;Thread&lt;/code&gt; boundary than in the case of &lt;code&gt;flatMapMany&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;That¡¯s why &lt;code&gt;onEachOperator&lt;/code&gt; covers more cases - it restores the initial value at each step, regardless of asynchronous boundaries. The performance is slightly better with &lt;code&gt;onLastOperator&lt;/code&gt; than with &lt;code&gt;onEachOperator&lt;/code&gt; though.&lt;/p&gt;
+&lt;h3&gt;addQueueWrapper Hook&lt;/h3&gt;
+&lt;p&gt;There is one more plugin that we can use to get full control over the reactive delivery if we combine it with the previous hooks. It is also used by Spring Cloud Sleuth. We are thinking about a recently introduced plugin, &lt;code&gt;Hooks.addQueueWrapper&lt;/code&gt;. We will not explore it in detail, though. It can solve the problem introduced by a work-stealing mechanism in Reactor. Asynchronous operators, such as &lt;code&gt;flatMap&lt;/code&gt;, can make progress on various &lt;code&gt;Thread&lt;/code&gt;s that deliver signals to the operator. Imagine a backpressure scenario where the processing is stalled for a while. At some point, a new &lt;code&gt;Thread&lt;/code&gt; can take over and issue a &lt;code&gt;Subscription.request(n)&lt;/code&gt; call, which causes the accumulated values to be delivered immediately. Now you can ask yourself: ¡°what accumulated values?¡± That is a good question. A lot of operators in Reactor use internal &lt;code&gt;Queue&lt;/code&gt;s to make backpressure possible or to preserve the serial delivery semantics. Because the draining of these &lt;code&gt;Queue&lt;/code&gt;s can happen on any &lt;code&gt;Thread&lt;/code&gt;, the contextual information should be attached to every signal stored in the &lt;code&gt;Queue&lt;/code&gt; - namely, the &lt;code&gt;ThreadLocal&lt;/code&gt; value for our correlation purposes. That¡¯s what we¡¯d need a &lt;code&gt;Queue&lt;/code&gt; wrapper for - upon submitting a value into the &lt;code&gt;Queue&lt;/code&gt;, we capture the &lt;code&gt;ThreadLocal&lt;/code&gt; state. When a value is retrieved from the &lt;code&gt;Queue&lt;/code&gt;, the state is restored.&lt;/p&gt;
+&lt;h2&gt;Context Propagation in Spring Cloud Sleuth&lt;/h2&gt;
+&lt;p&gt;Having shown what are the risks of operating outside of the reactive-streams terms and what mechanisms we can use to propagate &lt;code&gt;ThreadLocal&lt;/code&gt; context, let¡¯s summarize the four &lt;a href=&quot;https://docs.spring.io/spring-cloud-sleuth/docs/current-SNAPSHOT/reference/html/integrations.html#sleuth-reactor-integration&quot;&gt;strategies used by Spring Cloud Sleuth&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;DECORATE_ON_EACH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DECORATE_ON_LAST&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DECORATE_QUEUES&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MANUAL&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first three strategies try to use some properties of reactive operators, together with Reactor¡¯s &lt;a href=&quot;https://projectreactor.io/docs/core/release/reference/#hooks-assembly&quot;&gt;plugin mechanism&lt;/a&gt;, and use &lt;code&gt;ThreadLocal&lt;/code&gt;s as the internal transport mechanism as well as the means to share the contextual data with instrumentation libraries. The first three strategies also assume &lt;code&gt;Scheduler&lt;/code&gt; wrapping with &lt;a href=&quot;https://projectreactor.io/docs/core/release/api/reactor/core/scheduler/Schedulers.html#onScheduleHook-java.lang.String-java.util.function.Function-&quot;&gt;Schedulers.onScheduleHook&lt;/a&gt;. On the other hand, the last strategy takes advantage of Reactor¡¯s &lt;code&gt;Subscriber&lt;/code&gt;-bound &lt;code&gt;Context&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;DECORATE_ON_EACH&lt;/h3&gt;
+&lt;p&gt;This strategy uses the &lt;a href=&quot;https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Hooks.html#onEachOperator-java.util.function.Function-&quot;&gt;&lt;code&gt;Hooks.onEachOperator&lt;/code&gt;&lt;/a&gt; plugin we¡¯ve seen in action before.
+The performance impact is dramatic, even though Sleuth adds a lot of optimizations to avoid restoration when not necessary.
+Usually, this method is very effective. It is very aggressive though, so it can be troublesome to cope with if an operator requires changing the context. The downstream operators wouldn¡¯t see a change, as the context from the initial subscription is restored at each step.&lt;/p&gt;
+&lt;h3&gt;DECORATE_ON_LAST&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Hooks.html#onLastOperator-java.util.function.Function-&quot;&gt;&lt;code&gt;Hooks.onLastOperator&lt;/code&gt;&lt;/a&gt; is used to improve performance.
+This approach can fail because of the flexibility it provides. If an upstream operator modifies the context, the downstream operations see the change. This carries the risk that, if an operator clears that context, that context is lost until another signal is scheduled to the wrapped &lt;code&gt;Scheduler&lt;/code&gt;.
+Another risk is what we¡¯ve seen in the earlier examples, where the subscription happens on some &lt;code&gt;Thread&lt;/code&gt;, but requesting the data happens on another, which is not in Reactor¡¯s control.&lt;/p&gt;
+&lt;h3&gt;DECORATE_QUEUES&lt;/h3&gt;
+&lt;p&gt;An evolution over the preceding strategy, &lt;code&gt;DECORATE_QUEUES&lt;/code&gt; corrects some erroneous scenarios (requesting data happens out-of-band or multiple &lt;code&gt;Threads&lt;/code&gt; publish data) but not all of them. The &lt;a href=&quot;https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Hooks.html#addQueueWrapper-java.lang.String-java.util.function.Function-&quot;&gt;&lt;code&gt;Hooks.addQueueWrapper&lt;/code&gt;&lt;/a&gt; plugin is used the way we described earlier.
+One known issue with &lt;code&gt;Queue&lt;/code&gt; wrapping is that there is no reliable way of cleaning up after the processing of an item. The context is restored upon retrieval of an item from a &lt;code&gt;Queue&lt;/code&gt;. There is no scope surrounding processing of the item that travels through downstream operators. Therefore, this approach is also prone to polluting &lt;code&gt;ThreadLocal&lt;/code&gt; storage. There have been some recent improvements in the draining procedure to limit the impact.&lt;/p&gt;
+&lt;h3&gt;MANUAL&lt;/h3&gt;
+&lt;p&gt;In this strategy, the only thing Sleuth does is to capture the values from &lt;code&gt;ThreadLocal&lt;/code&gt;s into Reactor¡¯s &lt;code&gt;Context&lt;/code&gt; upon subscription as a snapshot. It is up to the user to extract that snapshot in relevant places and populate the &lt;code&gt;ThreadLocal&lt;/code&gt;s to make them available to instrumenting libraries. For supported tracing instrumentation, such as with Zipkin and Brave, Sleuth restores the &lt;code&gt;ThreadLocal&lt;/code&gt;s by using a concept of scoping ? the &lt;code&gt;ThreadLocal&lt;/code&gt;s are restored for the instrumentation and are gone immediately after the snapshot is closed.
+It is the most performant approach, although it requires manual (as the name suggests) handling, by the user.&lt;/p&gt;
+&lt;h2&gt;Evolution&lt;/h2&gt;
+&lt;p&gt;Using Reactor Context to populate &lt;code&gt;ThreadLocal&lt;/code&gt;s in a localized scope proves to be both performant and compliant with the way the reactive chains work. Associating context with the &lt;code&gt;Subscriber&lt;/code&gt; is a proven approach that does not unexpectedly cause the contextual data to be lost. In the next article, we will show how Reactor 3.5 and Micrometer 1.10 took the manual approach to the next level and provide a structured approach to context propagation across reactive and imperative boundaries.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - March 28th, 202]]></title><link>https://spring.io/blog/2023/03/28/this-week-in-spring-march-28th-202</link><guid isPermaLink="true">https://spring.io/blog/2023/03/28/this-week-in-spring-march-28th-202</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I&apos;m reporting to you from Los Angeles, where my family and I have gone for my daughter&apos;s spring break. We&apos;re going to survey some prospective colleges and we&apos;re going to Disneyland. Needless to say, I&apos;m doubly glad to have all this cool stuff to read this week; I can really savor each article! Let&apos;s dive in!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/03/28/context-propagation-with-project-reactor-1-the-basics&quot;&gt;Context Propagation with Project Reactor 1 - The Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/732762194/0/baeldung~Introduction-to-Grafana-Loki&quot;&gt;Introduction to Grafana Loki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jdk.java.net/20/release-notes&quot;&gt;JDK 20 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Not Spring Boot, &lt;em&gt;per se&lt;/em&gt;, but this is interesting if you&apos;re developing against Kubernetes and want a quick introduction:  &lt;a href=&quot;https://feeds.feedblitz.com/~/732761111/0/baeldung~Lightweight-Kubernetes-Distributions&quot;&gt;Lightweight Kubernetes Distributions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/732562607/0/baeldung~Run-a-Spring-Boot-Application-in-AWS-Lambda&quot;&gt;Run a Spring Boot Application in AWS Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/732761114/0/baeldung~SAML-with-Spring-Boot-and-Spring-Security&quot;&gt;SAML with Spring Boot and Spring Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/03/23/spring-boot-2-7-10-available-now&quot;&gt;Spring Boot 2.7.10 available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/03/27/spring-integration-for-aws-3-0-0-m2-and-spring-cloud-stream-kinesis-binder-4&quot;&gt;Spring Integration for AWS 3.0.0-M2 and Spring Cloud Stream Kinesis Binder 4.0.0-M1 Available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/732423968/0/baeldung~Spring-Kafka-Configure-Multiple-Listeners-on-Same-Topic&quot;&gt;Spring Kafka: Configure Multiple Listeners on Same Topic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/03/24/spring-modulith-0-5-1-released&quot;&gt;Spring Modulith 0.5.1 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SjSjBZ7mo1g&quot;&gt;Spring Modulith ? Spring for the Architecturally Curious Developer by Oliver Drotbohm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://feeds.feedblitz.com/~/732559919/0/baeldung~Spring-RDBC-Migrations-Using-Flyway&quot;&gt;Spring R2DBC Migrations Using Flyway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/03/22/start-from-zero-and-scale-to-zero-azure-spring-apps-consumption-plan&quot;&gt;Start from zero and scale to zero ? Azure Spring Apps consumption plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I loved  this article about different tools that you can use in your CI environment - like Snyk and Dependabot - to &lt;a href=&quot;https://maritvandijk.com/using-bots-to-keep-our-dependencies-up-to-date/&quot;&gt;keep bots up-to-date with dependencies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/JavaAtMicrosoft/status/1638637078551605248&quot;&gt;Start from 0 and scale to 0 for the most efficient resource utilization and simplify networking for your polyglot apps with the Azure Spring Apps consumption plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Cloud AWS lead Maciej Walkowiak put together a nice library called the   &lt;a href=&quot;https://github.com/maciejwalkowiak/spring-boot-startup-report&quot;&gt;Spring Boot Startup Report library generates an interactive Spring Boot application startup report that lets you understand what contributes to the application startup time and perhaps helps to optimize it.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Context Propagation with Project Reactor 1 - The Basics]]></title><link>https://spring.io/blog/2023/03/28/context-propagation-with-project-reactor-1-the-basics</link><guid isPermaLink="true">https://spring.io/blog/2023/03/28/context-propagation-with-project-reactor-1-the-basics</guid><dc:creator><![CDATA[Dariusz J?drzejczyk]]></dc:creator><pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring Boot 3 and Spring Framework 6 &lt;a href=&quot;https://spring.io/blog/2022/10/12/observability-with-spring-boot-3&quot;&gt;brought us&lt;/a&gt; a unified and consistent way to enable Observability in applications that use Micrometer. The evolution from Spring Cloud Sleuth to Micrometer, along with the Observation API and Micrometer Tracing, made us consolidate various approaches to context propagation. In this blog post series, we aim to explain how we came to support context propagation in Project Reactor to meet the needs of imperative libraries. By building your understanding from the ground up, you will be able to use these constructs and understand what¡¯s happening underneath. We assume basic understanding of reactive programming concepts. If you¡¯re new to it or want to refresh your knowledge, have a look at &lt;a href=&quot;https://projectreactor.io/docs/core/release/reference/#intro-reactive&quot;&gt;Introduction to Reactive Programming&lt;/a&gt; in the Project Reactor documentation.&lt;/p&gt;
+&lt;p&gt;In this article, we develop a simple e-commerce application. Our limited angle considers a request that adds a product and notifies the shop that a new product was added to the inventory. As responsible developers, we want to log all the steps taken for a particular request so that, if we were to investigate a problem, we can look at the logs and understand what happened. We¡¯ll explore how we can achieve the goal of providing the logging utility with contextual metadata about the request in an imperative style and also compare that to a more functional, declarative style of Project Reactor. The next articles will explore in more detail why and how we need a bridge between both programming styles.&lt;/p&gt;
+&lt;h2&gt;ThreadLocal&lt;/h2&gt;
+&lt;p&gt;To identify the logs belonging to a particular request, we need a way to correlate them. We may generate a simplistic random identifier like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static long correlationId() {
+  return Math.abs(ThreadLocalRandom.current().nextLong());
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We need a way to make the correlation identifier be available in a logging utility. We could make the correlation part of every method call in our business logic, but that would be very invasive and verbose.&lt;/p&gt;
+&lt;p&gt;Usually, third-party libraries use JDK¡¯s &lt;code&gt;ThreadLocal&lt;/code&gt; to convey implicit information that is not the primary concern of our application¡¯s business logic.&lt;/p&gt;
+&lt;p&gt;Let¡¯s declare a static field for our correlation identifier:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static final ThreadLocal&amp;#x3C;Long&gt; CORRELATION_ID = new ThreadLocal&amp;#x3C;&gt;();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here¡¯s our log method. It prints the current &lt;code&gt;Thread&lt;/code&gt; name and formats the output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static void log(String message) {
+  String threadName = Thread.currentThread().getName();
+  String threadNameTail = threadName.substring(
+    Math.max(0, threadName.length() - 10));
+  System.out.printf(&quot;[%10s][%20s] %s%n&quot;,
+    threadNameTail, CORRELATION_ID.get(), message);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we have everything we need to handle the request and log each step by using the implicit correlation identifier.&lt;/p&gt;
+&lt;p&gt;At the beginning of every request, the application makes a call to the following method to initiate the correlation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static void initRequest() {
+  CORRELATION_ID.set(correlationId()));
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our simplified request handler performs the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;void handleRequest() {
+  initRequest();
+
+  addProduct(&quot;test-product&quot;);
+  notifyShop(&quot;test-product&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Logging in the business logic looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;void addProduct(String productName) {
+  log(&quot;Adding product: &quot; + productName);
+  // ...
+}
+
+void notifyShop(String productName) {
+  log(&quot;Notifying shop about: &quot; + productName);
+  // ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can expect our application to log these lines:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 8592000019542134146] Adding product: test-product
+[      main][ 8592000019542134146] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As long as the execution of a particular request happens on the same &lt;code&gt;Thread&lt;/code&gt; and is not interleaved with other concerns, &lt;code&gt;ThreadLocal&lt;/code&gt; lets us decouple business logic from the metadata used for logging.&lt;/p&gt;
+&lt;h2&gt;Asynchronous Processing&lt;/h2&gt;
+&lt;p&gt;Let¡¯s imagine this application starts to have a higher load and needs to handle many concurrent requests. Imagine that we can use an asynchronous and non-blocking server implementation that requires us to provide asynchronous declarations instead of imperative and blocking steps.&lt;/p&gt;
+&lt;p&gt;Our request handler could return a &lt;code&gt;CompletableFuture&lt;/code&gt; to process the request in an asynchronous and non-blocking manner:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;CompletableFuture&amp;#x3C;Void&gt; handleRequest() {
+  return CompletableFuture
+    .runAsync(() -&gt; addProduct(&quot;test-product&quot;))
+    .thenRunAsync(() -&gt; notifyShop(&quot;test-product&quot;))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, when we execute our asynchronous version, the logs no longer contain the correlation identifier:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[l-worker-1][                null] Adding product: test-product
+[l-worker-1][                null] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Task Wrapping&lt;/h2&gt;
+&lt;p&gt;A known mitigation for this issue is to wrap the tasks executed by asynchronous APIs. By wrapping, we mean an implementation that performs the restoration of the &lt;code&gt;ThreadLocal&lt;/code&gt; context. When the task is created, the current context is captured. When a worker &lt;code&gt;Thread&lt;/code&gt; actually executes the task, that context is restored. Let¡¯s see how this would work for our example case with &lt;code&gt;Runnable&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class WrappedRunnable implements Runnable {
+
+  private final Long correlationId;
+  private final Runnable wrapped;
+
+  public WrappedRunnable(Runnable wrapped) {
+    this.correlationId = CORRELATION_ID.get();
+    this.wrapped = wrapped;
+  }
+
+  @Override
+  public void run() {
+    Long old = CORRELATION_ID.get();
+    CORRELATION_ID.set(this.correlationId);
+    try {
+      wrapped.run();
+    } finally {
+      CORRELATION_ID.set(old);
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We could reimplement our handler like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;CompletableFuture&amp;#x3C;Void&gt; handleRequest() {
+  return CompletableFuture
+    .runAsync(new WrappedRunnable(
+      () -&gt; addProduct(&quot;test-product&quot;)))
+    .thenRunAsync(new WrappedRunnable(
+      () -&gt; notifyShop(&quot;test-product&quot;)));
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, that is a lot of overhead. Luckily, the JDK has an API for executing asynchronous tasks: the &lt;code&gt;Executor&lt;/code&gt; interface. In a real-world scenario, we¡¯d want to use a more comprehensive API, the &lt;code&gt;ExecutorService&lt;/code&gt;. However, for our explanatory purposes, &lt;code&gt;Executor&lt;/code&gt; should suffice.&lt;/p&gt;
+&lt;p&gt;Let¡¯s have a look:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static class WrappedExecutor implements Executor {
+
+  private final Executor actual;
+
+  WrappedExecutor(Executor actual) {
+    this.actual = actual;
+  }
+
+  @Override
+  public void execute(Runnable command) {
+    actual.execute(new WrappedRunnable(command));
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s reuse the common &lt;code&gt;ForkJoinPool&lt;/code&gt; that the &lt;code&gt;CompletableFuture&lt;/code&gt; framework uses by default, but wrap it with our implementation.
+Now our code looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static Executor executor = new WrappedExecutor(ForkJoinPool.commonPool());
+
+CompletableFuture&amp;#x3C;Void&gt; handleRequest() {
+  return CompletableFuture
+    .runAsync(() -&gt; addProduct(&quot;test-product&quot;), executor)
+    .thenRunAsync(() -&gt; notifyShop(&quot;test-product&quot;), executor);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our logs again work properly:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[l-worker-1][ 7321040639376081961] Adding product: test-product
+[l-worker-2][ 7321040639376081961] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In some scenarios, the &lt;code&gt;CompletableFuture&lt;/code&gt; framework can provide the means to process asynchronous tasks in a non-blocking fashion. However, in many cases, the limited API surface and its behavior characteristics can be limiting. For example, we might want to delay the processing and resume later when our system is at its capacity. With &lt;code&gt;CompletableFuture&lt;/code&gt; all created instances start computing as soon as they are created. We might also want to apply more fine grained operations on top of a stream of data, instead of operating upon a single unit of computation. For some of those reasons and also more, we might consider using a reactive programming library. We will consider Project Reactor, which is the default reactive implementation in the Spring portfolio.&lt;/p&gt;
+&lt;h2&gt;Project Reactor&lt;/h2&gt;
+&lt;p&gt;To provide a resilient framework for asynchronous processing, the Java community proposed the Reactive Streams specification. It helped establish a common vocabulary that the JDK was missing before ? clear semantics for signal propagation, error handling, termination, and lifecycle management. It also allowed for built-in backpressure. Spring adopted this approach by introducing WebFlux, making Project Reactor and its reactive types first class citizens of the API.&lt;/p&gt;
+&lt;p&gt;Reactive Streams bring elegant and minimalistic solutions for asynchronous stream processing. However, context propagation is not part of the specification. The non-blocking and asynchronous nature of reactive libraries, together with potentially complex implementations, makes it extremely difficult to use &lt;code&gt;ThreadLocal&lt;/code&gt;s. The reason for it is that there are no guarantees regarding which &lt;code&gt;Thread&lt;/code&gt; can run the user¡¯s code. Implementations are allowed to perform all sorts of optimizations as long as they guarantee serial delivery, thus making the user¡¯s code concurrency-agnostic, shifting the burden of dealing with concurrency to the library internals.&lt;/p&gt;
+&lt;p&gt;To deliver its guarantees, reactive programming in Java assumes the functional programming paradigm is used to form a declarative and composable flow, which is agnostic of the fact that different &lt;code&gt;Thread&lt;/code&gt;s can execute user-provided code. The reactive libraries can provide an extremely performant runtime, while complying to the specification, as long as there are no side effects in user code that assume execution within a particular &lt;code&gt;Thread&lt;/code&gt;. &lt;code&gt;ThreadLocal&lt;/code&gt; clearly violates this requirement.&lt;/p&gt;
+&lt;p&gt;Let¡¯s try to rewrite our handler to use Project Reactor. The individual operations become:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  log(&quot;Adding product: &quot; + productName);
+  return Mono.empty(); // Assume we¡¯re actually storing the product
+}
+
+Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  log(&quot;Notifying shop about: &quot; + productName);
+  return Mono.just(true); // Assume we¡¯re actually notifying the shop
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let¡¯s try to use the above:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  initRequest();
+  log(&quot;Invoke methodAssembling the to get Mono chain&quot;);
+
+  return Mono.just(&quot;test-product&quot;)
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product),
+        notifyShop(product))
+      .then())
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our naive implementation yields the desired output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 7224499961623309444] Assembling the chain
+[      main][ 7224499961623309444] Adding product: test-product
+[      main][ 7224499961623309444] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above implementation is invoked in the &lt;code&gt;main&lt;/code&gt; &lt;code&gt;Thread&lt;/code&gt;, and the execution is confined to that &lt;code&gt;Thread&lt;/code&gt;. We should not make such assumptions though.&lt;/p&gt;
+&lt;p&gt;In the handler, we introduce a slight delay before we propagate the result of the processing. We do so to demonstrate the implicit &lt;code&gt;Thread&lt;/code&gt; switch that happens behind the scenes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  initRequest(); &amp;#x3C;1&gt;
+  log(&quot;Assembling the chain&quot;); // &amp;#x3C;2&gt;
+
+  return Mono.just(&quot;test-product&quot;)
+    .delayElement(Duration.ofMillis(1)) // &amp;#x3C;3&gt;
+    .flatMap(product -&gt;
+      Flux.concat(
+        addProduct(product), // &amp;#x3C;4&gt;
+        notifyShop(product))
+      .then())
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When run, the following is printed:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 6265915299594887150] Assembling the chain
+[parallel-1][                null] Adding product: test-product
+[parallel-1][                null] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What happened? Why does one log have the correlation identifier but the others don¡¯t?&lt;/p&gt;
+&lt;p&gt;When the server calls our handler, the initialization at &lt;code&gt;&amp;#x3C;1&gt;&lt;/code&gt; sets the &lt;code&gt;ThreadLocal&lt;/code&gt; correlation identifier and the log at &lt;code&gt;&amp;#x3C;2&gt;&lt;/code&gt; is able to use it. Those experienced in reactive programming can tell you the issue is that the execution happens in different phases. The &lt;code&gt;ThreadLocal&lt;/code&gt; is set at assembly time. ¡°You should restore it at subscription time, too¡± would be one piece of advice. We¡¯ll get back to that in a bit. If the terms ¡°assembly¡±, ¡°subscription¡±, and ¡°execution time¡± are confusing to you, have a look at the excellent explanations in &lt;a href=&quot;https://spring.io/blog/2019/03/06/flight-of-the-flux-1-assembly-vs-subscription&quot;&gt;Simon¡¯s blog post&lt;/a&gt; or watch &lt;a href=&quot;https://www.youtube.com/watch?v=sNgTTcG-fEU&quot;&gt;the talk of the same title&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While the method is returned immediately it does not guarantee that execution is started. That is because the returned &lt;code&gt;Mono&lt;/code&gt; has to be subscribed to trigger processing. It may potentially happen in a different &lt;code&gt;Thread&lt;/code&gt;. The &lt;code&gt;delayElement&lt;/code&gt; operator at &lt;code&gt;&amp;#x3C;3&gt;&lt;/code&gt; implicitly uses a shared &lt;code&gt;Scheduler&lt;/code&gt; (an abstraction for a pool of &lt;code&gt;Thread&lt;/code&gt;s) from Reactor to deliver the signal on yet another &lt;code&gt;Thread&lt;/code&gt; after the specified delay. That signal propagates to the downstream operators, which let us sequence adding the product first and notifying the shop afterwards. There are more surprising aspects of the pipeline we assembled, but let¡¯s not get too confused.&lt;/p&gt;
+&lt;p&gt;The issue is that, in &lt;code&gt;&amp;#x3C;4&gt;&lt;/code&gt;, if we log, we can¡¯t really tell what &lt;code&gt;Thread&lt;/code&gt; the call is going to happen on. Operators such as &lt;code&gt;flatMap&lt;/code&gt; can introduce their own asynchrony.&lt;/p&gt;
+&lt;p&gt;In a regular case, values start being delivered when the chain is subscribed to. We could therefore restore &lt;code&gt;ThreadLocal&lt;/code&gt; values upon every subscription. It¡¯s not always the best idea though. The &lt;code&gt;Subscription&lt;/code&gt; can be delivered asynchronously, on a different &lt;code&gt;Thread&lt;/code&gt;. Also values can be delivered on different &lt;code&gt;Thread&lt;/code&gt;s. In the case of backpressure, a signal can be delivered as a result of a request for more data on the &lt;code&gt;Thread&lt;/code&gt; performing the request instead of the &lt;code&gt;Thread&lt;/code&gt; used by the &lt;code&gt;Publisher&lt;/code&gt; of data. Lots of moving parts and quirks to consider! To learn more about threading and asynchronous execution in Reactor please review &lt;a href=&quot;https://spring.io/blog/2019/12/13/flight-of-the-flux-3-hopping-threads-and-schedulers&quot;&gt;another part of our previous blog post series&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Reactor Context&lt;/h2&gt;
+&lt;p&gt;Project Reactor introduced a mechanism that is well aligned with functional programming to provide means to transport contextual metadata. It is simply called &lt;code&gt;Context&lt;/code&gt;. And it stays attached to the reactive chain, despite Thread switches that happen behind the scenes.&lt;/p&gt;
+&lt;p&gt;As we¡¯ve seen, Project Reactor allows declaratively specifying the intent, while staying concurrency agnostic. It does provide the means to control concurrency when necessary, by using dedicated operators or configuration parameters (such as &lt;code&gt;publishOn&lt;/code&gt;, &lt;code&gt;subscribeOn&lt;/code&gt;, or the advanced parameters of &lt;code&gt;flatMap&lt;/code&gt;), but that level of control is abstracted away from the core processing logic.&lt;/p&gt;
+&lt;p&gt;We mentioned side effects earlier. How can we get rid of those and still be able to transport contextual metadata?&lt;/p&gt;
+&lt;p&gt;To play well with functional programming, the &lt;code&gt;Context&lt;/code&gt; is bound to the &lt;code&gt;Subscriber&lt;/code&gt;, the consumer of signals emitted by the &lt;code&gt;Publisher&lt;/code&gt;. Upon subscription, a &lt;code&gt;Subscriber&lt;/code&gt; is made visible to all preceding operators in the assembled pipeline. When we associate an immutable &lt;code&gt;Map&lt;/code&gt;-like data structure to the &lt;code&gt;Subscriber&lt;/code&gt; instance, it allows attaching and retrieving contextual information in parts of a reactive pipeline.&lt;/p&gt;
+&lt;p&gt;With control of the impact and the means to provide inheritance between steps in the reactive chain, Reactor &lt;code&gt;Context&lt;/code&gt; is a side-effect-free concept, which can be used to provide meta-information to the processing. ¡°Just what we need to correlate our requests!¡±.&lt;/p&gt;
+&lt;p&gt;Let¡¯s rewrite our application to use Reactor &lt;code&gt;Context&lt;/code&gt; instead of &lt;code&gt;ThreadLocal&lt;/code&gt;s.&lt;/p&gt;
+&lt;p&gt;First, we need to make the correlation identifier an explicit parameter of the log method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;static void log(String message, long correlationId) {
+  String threadName = Thread.currentThread().getName();
+  String threadNameTail = threadName.substring(
+    Math.max(0, threadName.length() - 10));
+  System.out.printf(&quot;[%10s][%20s] %s%n&quot;,
+    threadNameTail, correlationId, message);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our actions are the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; addProduct(String productName) {
+  return Mono.deferContextual(ctx -&gt; {
+    log(&quot;Adding product: &quot; + productName, ctx.get(&quot;CORRELATION_ID&quot;));
+    return Mono.empty(); // Assume we¡¯re actually storing the product
+  });
+}
+
+Mono&amp;#x3C;Boolean&gt; notifyShop(String productName) {
+  return Mono.deferContextual(ctx -&gt; {
+    log(&quot;Notifying shop about: &quot; + productName,
+      ctx.get(&quot;CORRELATION_ID&quot;));
+    return Mono.just(true);
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What is interesting is how we provide the correlation identifier. We use a special operator, &lt;code&gt;Mono.deferContextual&lt;/code&gt;, which has access to the &lt;code&gt;Context&lt;/code&gt;. From the &lt;code&gt;ContextView&lt;/code&gt; (a simplified, read-only &lt;code&gt;Context&lt;/code&gt; version) we extract the correlation identifier before returning an actual &lt;code&gt;Mono&lt;/code&gt; for the caller to subscribe to.&lt;/p&gt;
+&lt;p&gt;Our handler looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Mono&amp;#x3C;Void&gt; handleRequest() {
+  long correlationId = correlationId();
+  log(&quot;Assembling the chain&quot;, correlationId);
+
+  Mono.just(&quot;test-product&quot;)
+    .delayElement(Duration.ofMillis(1))
+    .flatMap(product -&gt;
+      Flux.concat(addProduct(product), notifyShop(product))
+          .then())
+    .contextWrite(Context.of(&quot;CORRELATION_ID&quot;, correlationId));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When subscribed to, the output is as expected:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[      main][ 6328001264807824115] Assembling the chain
+[parallel-1][ 6328001264807824115] Adding product: test-product
+[parallel-1][ 6328001264807824115] Notifying shop about: test-product
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The inversion of information flow is apparent. As in any reactive chain, we define the processing flow by assembling a chain of operators. Once we (or actually, the server) subscribe to this chain, the information flows from downstream operators to the upstream operators to initiate the processing. Afterwards, the actual data signals are delivered from the upstream to the downstream ? for example, the ¡°test-product¡± value travels to the &lt;code&gt;flatMap&lt;/code&gt; operator, then to the &lt;code&gt;concat&lt;/code&gt; operator, which in turn provides the value to both &lt;code&gt;addProduct&lt;/code&gt; and &lt;code&gt;notifyShop&lt;/code&gt;. Due to this flow of logic, we write the &lt;code&gt;Context&lt;/code&gt; at the very end (using the &lt;code&gt;contextWrite&lt;/code&gt; method), just before any &lt;code&gt;Subscriber&lt;/code&gt; subscribes to the chain. We can imagine the &lt;code&gt;Context&lt;/code&gt; then becomes accessible alongside the &lt;code&gt;Subscriber&lt;/code&gt; to all the stages in upstream operators.&lt;/p&gt;
+&lt;p&gt;Regardless of how many thread hops the reactive pipeline makes along the way of executing the user¡¯s business logic, the context is not lost.&lt;/p&gt;
+&lt;p&gt;You can read more about Reactor &lt;code&gt;Context&lt;/code&gt; &lt;a href=&quot;https://projectreactor.io/docs/core/release/reference/#context&quot;&gt;in our documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;3rd party libraries&lt;/h2&gt;
+&lt;p&gt;Unfortunately, we can¡¯t expect 3rd party libraries to use Reactor &lt;code&gt;Context&lt;/code&gt; to provide observability capabilities. The de facto currency for propagating implicit meta-information is the &lt;code&gt;ThreadLocal&lt;/code&gt;. Libraries like SLF4J use an imperative style and have a stable position in the Java community. If we can make them work with the reactive paradigm instead of expecting them to adapt to it, it would be a clear win. In the next part, we discuss the history and challenges of propagating &lt;code&gt;ThreadLocal&lt;/code&gt; values in reactive chains in Spring Cloud Sleuth, a tracing library that can be used together with Reactor.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Integration for AWS 3.0.0-M2 and Spring Cloud Stream Kinesis Binder 4.0.0-M1 Available]]></title><link>https://spring.io/blog/2023/03/27/spring-integration-for-aws-3-0-0-m2-and-spring-cloud-stream-kinesis-binder-4</link><guid isPermaLink="true">https://spring.io/blog/2023/03/27/spring-integration-for-aws-3-0-0-m2-and-spring-cloud-stream-kinesis-binder-4</guid><dc:creator><![CDATA[Artem Bilan]]></dc:creator><pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Dear Spring community,&lt;/p&gt;
+&lt;p&gt;Today I&apos;m excited to share with you news that &lt;a href=&quot;https://github.com/spring-projects/spring-integration-aws&quot;&gt;Spring Integration extension project for AWS&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream-binder-aws-kinesis&quot;&gt;AWS Kinesis Binder for Spring Cloud Stream&lt;/a&gt; have finally been moved to &lt;a href=&quot;https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html&quot;&gt;AWS Java SDK v2&lt;/a&gt;, their respective milestones &lt;code&gt;3.0.0-M2&lt;/code&gt; &amp;#x26; &lt;code&gt;4.0.0-M1&lt;/code&gt; are available from Spring Milestone repository.&lt;/p&gt;
+&lt;p&gt;I cannot tell that this was a pleasant work to do because it has turned to be not just a plain dependencies upgrade and namespace renaming. The whole AWS SDK API was changed to more modern Java style, including &lt;code&gt;CompletableFuture&lt;/code&gt; composition and &lt;code&gt;Stream&lt;/code&gt; API, lambda-style configuration, generated builders etc. They have even Reactive Streams support! Some options have been removed and some added. So, even if Spring Integration channel adapters are high enough API for end-users, they still suffered many breaking changes with these new generations.&lt;/p&gt;
+&lt;p&gt;Some highlights of these milestone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Of course, first of all the latest AWS SDK &lt;code&gt;2.20.32&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Upgrades to &lt;a href=&quot;https://awspring.io/&quot;&gt;Spring Cloud AWS&lt;/a&gt; &lt;code&gt;3.0.0&lt;/code&gt; with its new SQS listener API&lt;/li&gt;
+&lt;li&gt;XML configuration removal. Right, this is unusual for Spring backwards compatibility, but Spring Cloud AWS did that already and there is no any Spring Cloud projects providing and XML support.&lt;/li&gt;
+&lt;li&gt;Our own &lt;code&gt;DynamoDbLockRegistry&lt;/code&gt; implementation with a proper TTL support.&lt;/li&gt;
+&lt;li&gt;KCL channel adapter now relies on a new &lt;a href=&quot;https://docs.aws.amazon.com/streams/latest/dev/building-enhanced-consumers-kcl.html&quot;&gt;Enhanced Fan-Out Consumer&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;All outbound channel adapters are &lt;code&gt;async&lt;/code&gt; by default and leverage a &lt;code&gt;CompletableFuture&lt;/code&gt; support from their super &lt;code&gt;AbstractMessageProducingHandler&lt;/code&gt; class.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;https://docs.aws.amazon.com/glue/latest/dg/schema-registry.html&quot;&gt;Glue Schema&lt;/a&gt; support has been exposed in KCL and KPL channel adapters.&lt;/li&gt;
+&lt;li&gt;The Kinesis Binder does not support &lt;a href=&quot;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.KCLAdapter.html&quot;&gt;DynamoDB Streams Adapter&lt;/a&gt; any more. There is no its implementation for SDK v2 and general AWS recommendation is to use Kinesis &lt;a href=&quot;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/kds.html&quot;&gt;enabled on the table&lt;/a&gt; to  captures data changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See READMEs of these projects on GitHub for more information.&lt;/p&gt;
+&lt;p&gt;We are probably going to GA in a couple weeks, so don&apos;t hesitate to give them a try and come back with any feedback or contribution!&lt;/p&gt;
+&lt;p&gt;Cheers,?&lt;br&gt;
+Artem&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-integration/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc&quot;&gt;Contributing&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-integration&quot;&gt;Help&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-integration&quot;&gt;Chat&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.1.0-M2 available now]]></title><link>https://spring.io/blog/2023/03/24/spring-boot-3-1-0-m2-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/03/24/spring-boot-3-1-0-m2-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.1.0-M2&lt;/code&gt; has been released and is now available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.1.0-M2&quot;&gt;81 enhancements, documentation improvements, dependency upgrades, and bug fixes&lt;/a&gt;. Notable new features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto-configuration for Spring Authorization Service&lt;/li&gt;
+&lt;li&gt;Improved Testcontainers integration&lt;/li&gt;
+&lt;li&gt;Improved auto-configuration for Spring for GraphQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.1.0-M2-Release-Notes&quot;&gt;release notes&lt;/a&gt; for more details and upgrade instructions.&lt;/p&gt;
+&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/3.1.0-M2/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Modulith 0.5.1 released]]></title><link>https://spring.io/blog/2023/03/24/spring-modulith-0-5-1-released</link><guid isPermaLink="true">https://spring.io/blog/2023/03/24/spring-modulith-0-5-1-released</guid><dc:creator><![CDATA[Oliver Drotbohm]]></dc:creator><pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;d like to announce the availability of Spring Modulith 0.5.1. The release primarily contains an important bug fix (the &lt;code&gt;spring-modulith-runtime&lt;/code&gt; module accidentally contained a Logback configuration file only intended for test usage) and the usual upgrade to the latest Spring Boot version. Find more information in the &lt;a href=&quot;https://github.com/spring-projects-experimental/spring-modulith/releases/tag/0.5.1&quot;&gt;full changelog&lt;/a&gt;, as well as &lt;a href=&quot;https://docs.spring.io/spring-modulith/docs/0.5.1/reference/html/&quot;&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In case you are wondering about what the project is all about, Voxxed Days Zurich have published &quot;Spring Modulith ? Spring for Architecturally Curious Developers&quot;:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SjSjBZ7mo1g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item></channel></rss>

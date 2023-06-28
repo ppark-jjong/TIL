@@ -1,0 +1,6 @@
+package classFile;
+
+public class OrderCommand {
+	List<Order> orders;
+	
+}

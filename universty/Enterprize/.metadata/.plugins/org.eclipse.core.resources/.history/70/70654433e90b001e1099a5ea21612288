@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>주문 내용 :</p>
+	<ul>
+		<c:forEach var="order" items="${orderCommand.order}"
+			varStatus="status">
+			<li> 모델명 : 
+			<li>제조사 :${order.maker }</li>
+			<li>주문수량 : ${order.num }
+		</c:forEach>
+	</ul>
+	<p>응답자 위치: ${ansData.res.location}</p>
+	<p>응답자 나이 : ${ansData.res.age}</p>
+</body>
+</html>

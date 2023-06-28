@@ -1,0 +1,5 @@
+package controller;
+@Contoroller
+public class SurveyController {
+
+}
