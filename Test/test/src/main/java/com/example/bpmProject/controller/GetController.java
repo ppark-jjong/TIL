@@ -1,7 +1,6 @@
-package com.example.test.controller;
+package com.example.bpmProject.controller;
 
-import com.example.test.dto.MemberDto;
-import org.springframework.data.repository.query.Param;
+import com.example.bpmProject.dto.MemberDto;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -9,6 +8,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/v1/get-api")//공통되는 URL을 위한 RequestMapping
 public class GetController {
+
     //http://localhost:8080/api/v1/get-api/hello
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String getHello() {

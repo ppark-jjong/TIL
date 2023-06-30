@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '2.7.11'
+    id 'org.springframework.boot' version '2.6.2'
     id 'io.spring.dependency-management' version '1.1.0'
 }
 
@@ -29,8 +29,11 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
-}
 
+    //https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+}
 tasks.named('test') {
     useJUnitPlatform()
 }

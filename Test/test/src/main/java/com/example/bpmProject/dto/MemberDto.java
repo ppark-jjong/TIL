@@ -1,4 +1,4 @@
-package com.example.test.dto;
+package com.example.bpmProject.dto;
 
 import lombok.Data;
 import lombok.ToString;
@@ -13,8 +13,8 @@ public class MemberDto {
     @Override
     public String toString() {
         return "MemberDto{" +
-                "name = " + name +
-                "email = " + email +
+                "name = " + name + " / " +
+                "email = " + email + " / " +
                 "organization = " + organization + "}";
     }
 }

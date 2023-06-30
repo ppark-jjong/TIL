@@ -2,6 +2,9 @@ server:
   port: 8080
 
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy : ant_path_matcher #swagger 사용을 위한 yml 설정법
   jpa:
     open-in-view: false
     show-sql: true
