@@ -1,6 +1,0 @@
-package config;
-
-@Configuration
-public class ControllerConfig {
-
-}

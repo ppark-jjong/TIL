@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Thu Jun 15 15:46:15 KST 2023
-org.eclipse.jst.jee.server\:/binary\:C\:\\MyMain\\universty\\Enterprize\\Spring-B\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
-org.eclipse.jst.jee.server\:/binary\:C\:\\MyMain\\universty\\Enterprize\\Spring-B\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
