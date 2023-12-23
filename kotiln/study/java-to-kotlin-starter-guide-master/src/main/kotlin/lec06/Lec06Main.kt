@@ -45,4 +45,5 @@ while (i<=3) {
 /*정리
 for each 문에서 Java는 : Kotlin은 in을 사용한다
 전통전인 for문에서는 Kotlin은 등차수열 in을 사용한다
-그 외의 for문 문법은 모두 동일하다*/
+그 외의 for문 문법은 모두 동일하다 
+while과 do while문의 문법 또한 동일하다*/
