@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>로그인 페이지</title>
+</head>
+<body>
+<h1>로그인 페이지</h1>
+<hr>
+<form action="/login" method="post">
+	<input type="text" name="username" placeholder="Username"> <br>
+	<input type="password" name="password" placeholder="Password"><br>
+	<button>로그인</button>
+</form>
+<!--	밑의 소셜 로그인 기능 href는 oauth 라이브러리의 정해진 규칙이기 때문에 따라해야만 함-->
+<a href="/oauth2/authorization/google">구글 로그인</a>
+<a href="/joinForm">회원가입</a>
+</body>
+</html>.

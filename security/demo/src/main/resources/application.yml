@@ -13,16 +13,16 @@ spring:
     url: jdbc:mysql://localhost:3306/security?serverTimezone=Asia/Seoul
     username: root
     password: 1234
-  #  security:
-  #    oauth2:
-  #      client:
-  #        registration:
-  #          google:
-  #            client-id: 289929730693-kl9cp9lv08ndkga288mtoqp28n19ash9.apps.googleusercontent.com
-  #            client-secret: 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
-  #            scope:
-  #              - email
-  #              - profile
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 289929730693-kl9cp9lv08ndkga288mtoqp28n19ash9.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
 
   ##확장자를 머스테치로 바로 인식 가능하게 함
   #  mvc:
