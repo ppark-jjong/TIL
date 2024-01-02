@@ -1,5 +1,10 @@
 package com.example.demo.config.oauth;
 
+import com.example.demo.config.auth.PrincipalDetails;
+import com.example.demo.model.User;
+import com.example.demo.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
 import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
@@ -7,20 +12,48 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
 /*코드 받기 -> 액세스 토큰(권한) -> 사용자 프로필 가져오기 -> 사용자 프로필 정보를 토대로 로그인 자동진행
-* 만약 추가로 정보가 필요하다면 기입 로직 처리*/
+ * 만약 추가로 정보가 필요하다면 기입 로직 처리*/
 @Service
 public class PrincipalOauth2UserService extends DefaultOAuth2UserService {
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    @Autowired
+    private UserRepository userRepository;
+
     @Override
+    //해당 함수 종료 시 @AuthenticationPrincipal 어노테이션이 만들어진다.
     //oauth 토큰 인증을 후처리 해주는 함수 (구글 로그인으로부터 받은 userRequest라는 데이터에 대한 후처리 함수 즉 구글 토큰 + 사용자 정보)
     public OAuth2User loadUser(OAuth2UserRequest userRequest) throws OAuth2AuthenticationException {
         System.out.println("userRequest: " + userRequest.getAccessToken().getTokenValue()); //토큰 정보
+        OAuth2User oAuth2User = super.loadUser(userRequest);
         //사용자 프로필 모든 정보(여기서 얻어내는 값을 회원가입 정보와 일치시키면 편함)
         /*구글 로그인 버튼 클릭 -> 구글 로그인창 -> 로그인 완료 -> code를 리턴(OAuth-Client 라이브러리) -> 근데 구글은 AccessToken과 사용자 프로필을 보통 리턴
         리턴된 userRequest 정보 -> loadUser함수 호출 -> 구글로 부터 회원 프로필을 얻음*/
-        System.out.println("getAuthorities: " + super.loadUser(userRequest).getAuthorities());
+        System.out.println("getAuthorities: " + oAuth2User.getAuthorities());
 
-        OAuth2User oAuth2User = super.loadUser(userRequest);
+        //회원가입을 강제로 진행
+        String provider = userRequest.getClientRegistration().getClientId(); //google 자체를 의미함
+        String providerId = oAuth2User.getAttribute("sub"); //google 토큰을 깠을 때 유저 ID 값
+        String username = provider + "_" + providerId; //google_userID값
+        String password = bCryptPasswordEncoder.encode("겟인데어");
+        String email = oAuth2User.getAttribute("email");
+        String role = "ROLE_USER";
 
-        return super.loadUser(userRequest);
+        User userEntity = userRepository.findByUsername(username);
+        if (userEntity == null) {
+            System.out.println("구글 로그인이 최초입니다.");
+            userEntity = User.builder()
+                    .username(username)
+                    .password(password)
+                    .email(email)
+                    .role(role)
+                    .provider(provider)
+                    .providerId(providerId)
+                    .build();
+            userRepository.save(userEntity);
+        }else {
+            System.out.println("구글 로그인을 이미 한적이 있어 가입된 회원입니다.");
+        }
+        return new PrincipalDetails(userEntity, oAuth2User.getAttributes());
     }
 }

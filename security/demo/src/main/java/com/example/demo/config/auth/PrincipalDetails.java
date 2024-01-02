@@ -20,15 +20,23 @@ import java.util.Map;
 @Data
 public class PrincipalDetails implements UserDetails, OAuth2User {
     private User user;
+    //토큰에서 받아온 data들을 저장할 Map 리스트
+    private Map<String, Object> attributes;
 
     //일반 로그인 생성자
     public PrincipalDetails(User user) {
         this.user = user;
     }
 
+    //OAuth 로그인 생성자
+    public PrincipalDetails(User user, Map<String, Object> attributes) {
+        this.user = user;
+        this.attributes = attributes;
+    }
+
     @Override
     public Map<String, Object> getAttributes() {
-        return null;
+        return attributes;
     }
 
     //해당 User의 권한을 리턴하는 메서드

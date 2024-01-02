@@ -20,6 +20,7 @@ public class PrincipalDetailService implements UserDetailsService {
 //    즉 밑에 메서드는 로그인 메서드 서비스라고 봐야됨 (시큐리티 session(내부 Authentication(내부 UserDetails)))
     @Override
     //매개변수의 username은 login.html에서 form 태그 안에서 받는 name값과 일치 하여야 한다(username만 자동 지정되어 있음)
+    //해당 함수 종료 시 @AuthenticationPrincipal 어노테이션이 만들어진다.
     //만약 다른 변수를 사용할 경우 SecurityConfig에서 설정 값 변경을 해야함
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepository.findByUsername(username);

@@ -19,10 +19,11 @@ public class SecurityConfig {
 
     @Autowired
     private PrincipalOauth2UserService principalOauth2UserService;
-    @Bean //해당 메서드의 리턴되는 오브젝트를 IoC로 자동 등록해준다 (비밀번호 암호화를 위한 객체 생성)
-    public BCryptPasswordEncoder encodePwd() {
-        return new BCryptPasswordEncoder();
-    }
+
+//    @Bean //해당 메서드의 리턴되는 오브젝트를 IoC로 자동 등록해준다 (비밀번호 암호화를 위한 객체 생성)
+//    public BCryptPasswordEncoder encodePwd() {
+//        return new BCryptPasswordEncoder();
+//    }
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
