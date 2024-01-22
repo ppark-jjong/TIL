@@ -2,3 +2,45 @@
 Ctrl + Shift + E : 목록으로 커서 옮기기
 Ctrl + F4 : 현재 창 닫기
 Ctrl + K + W : 켜져 있는 모든 창닫기
+
+전체선택 
+ctrl + a 
+
+파일내 텍스트 검색
+ctrl + f
+
+파일내 동일텍스트 순차 지정
+텍스트 영역 블럭지정후,
+ctrl + d 
+
+HTML 코드 정렬
+ctrl + k + f 
+
+css 코드 정렬
+alt + shift + f 
+
+작업 영역 내 전체 텍스트 검색
+ctrl + shift + f 
+
+일괄 변경(replace)
+ctrl + shift + h
+이후 일괄 저장 필수, alt + ctrl + s 
+
+beauty (extension) 설치시, 코드정렬
+ctrl + shift + b
+
+파일명으로 검색하기
+ctrl + p 
+ 
+단어 단위 커서 이동
+ctrl + 방향키
+ 
+단어 블록
+ctrl + shift + 방향키
+ 
+코드 라인 변경
+alt + 방향키
+
+ 
+
+ 
