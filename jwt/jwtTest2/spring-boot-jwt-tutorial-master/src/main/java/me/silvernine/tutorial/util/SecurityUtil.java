@@ -13,7 +13,7 @@ public class SecurityUtil {
    private static final Logger logger = LoggerFactory.getLogger(SecurityUtil.class);
 
    private SecurityUtil() {}
-
+// Security Context의 Authentication 객체를 이용해 username을 리턴해주는 간단한 유틸성 메서드
    public static Optional<String> getCurrentUsername() {
       final Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 

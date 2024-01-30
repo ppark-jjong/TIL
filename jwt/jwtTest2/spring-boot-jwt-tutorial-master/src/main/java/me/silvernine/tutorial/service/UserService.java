@@ -44,11 +44,13 @@ public class UserService {
         return UserDto.from(userRepository.save(user));
     }
 
+//    username을 이용하여 유저 권한 객체를 가져오는 메서드
     @Transactional(readOnly = true)
     public UserDto getUserWithAuthorities(String username) {
         return UserDto.from(userRepository.findOneWithAuthoritiesByUsername(username).orElse(null));
     }
 
+//    현재 securityContext 에 저장된 username의 정보를 가져옴
     @Transactional(readOnly = true)
     public UserDto getMyUserWithAuthorities() {
         return UserDto.from(

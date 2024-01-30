@@ -76,7 +76,7 @@ public class SecurityConfig {
                 .headers(headers ->
                         headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)
                 )
-
+                // JwtFilter 를 addFilterBefore로 등록했던 JwtSecurityConfig 클래스를 적용
                 .with(new JwtSecurityConfig(tokenProvider), customizer -> {
                 });
         return http.build();
