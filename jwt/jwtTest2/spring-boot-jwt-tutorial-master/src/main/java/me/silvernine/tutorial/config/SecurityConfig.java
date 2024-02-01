@@ -20,7 +20,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.filter.CorsFilter;
 
-@EnableWebSecurity
+@EnableWebSecurity //WebSecurity 기능을 활성화 시키겠다
 @EnableMethodSecurity(prePostEnabled = true) // @PreAuthorize 어노테이션을 메소드 단위로 추가하기 위한 어노테이션
 @Configuration
 public class SecurityConfig {
@@ -63,7 +63,6 @@ public class SecurityConfig {
                 // 토큰이 없을 때도 허용가능한 페이지 (index, 토큰 생성 페이지, 회원가입 페이지)의 권한을 허용
                 .authorizeHttpRequests(authorizeHttpRequests -> authorizeHttpRequests
                         .requestMatchers("/api/hello", "/api/authenticate", "/api/signup").permitAll()
-                        .requestMatchers(PathRequest.toH2Console()).permitAll()
                         .anyRequest().authenticated()
                 )
 
@@ -72,10 +71,10 @@ public class SecurityConfig {
                         sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
 
-                // enable h2-console
-                .headers(headers ->
-                        headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)
-                )
+//                // enable h2-console
+//                .headers(headers ->
+//                        headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)
+//                )
                 // JwtFilter 를 addFilterBefore로 등록했던 JwtSecurityConfig 클래스를 적용
                 .with(new JwtSecurityConfig(tokenProvider), customizer -> {
                 });
