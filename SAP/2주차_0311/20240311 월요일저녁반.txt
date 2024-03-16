@@ -1,0 +1,226 @@
+c++ 2019
+구글링해서 설치하고 
+오라클 버추어박스 실행해봐라
+
+SE11 은 테이블을 보는 프로그램이다.
+데이터베이스에 깔려있는 테이블을 보는 프로그램이다.
+
+SCARR
+이라는 테이블을 넣고 조회를 해봤습니다.
+
+MANDT  CARRID CARRNAME CURRCODE URL
+001        AA         American    USD        aa.com
+
+
+MANDT       CLNT
+CARRID       CHAR
+CARRNAME  CHAR
+CURRCODE   CUKY
+URL            CHAR
+
+settings 메뉴 에서 user parameters   메뉴에서 ALV_GRID_DISPLAY를 선택하고 나오셔라
+
+CLNT 타입이 뭐냐  
+
+CLNT  클라이언트 타입
+
+ABAP에는 타입이 2가지가 있다.
+
+데이터 타입   용도에 따라 타입이 결정된다. 
+아밥 타입      속성에 따라 타입이 결정된다.
+C(문자)   I(소수점없는숫자)    N(숫자로 구성된 문자)  P(소수점있는숫자)   D(날짜)   T(시간)
+
+CLNT  :  클라이언트 타입 사용자 로그인할때 넣어서 로그인한다.
+
+클라이언트 : 계열사 코드
+
+삼성
+
+삼성전자 : 001
+삼성전기 : 002
+삼성반도체: 003
+
+거의 모든 SAP 테이블의 첫번째 필드는 클라이언트 필드다.
+필드이름 MANDT 라고 되어있다.
+
+왜 이렇게 하느냐??
+
+하나의 서버에서 하나의 테이블에서 모든 계열사의 데이터를 통합관리하기 위해서
+
+중견기업들은 보통 하나의 클라이언트만 쓰는 경우도 많다. 
+
+왜 이렇게 쓰느냐?
+
+영업조직이라든가 안에서 또 구분할 수 있는게 있다.
+
+SQL문으로 불러올때 항상 MANDT를 체크해줘야한다.
+조건도 넣어줘야하고 
+심플하게 하나만 넣으면MANDT필드를 무시해도 되기 때문에
+그렇게 한다.
+
+대기업들은 클라이언트 번호를 여러개 쓰는 편이다 계열사별로
+
+-------------------------------------------
+
+CLNT 클라이언트 타입 계열사 코드로 넣는 용도  아밥타입 C
+001 => 00이 앞에 붙으면 문자라고 보시면 된다. 
+문자기때문에 클라이언트는 A01 이런식으로 넣어도 되고 내마음이다.
+
+CHAR 문자 타입  문자가 들어가는 용도   아밥타입 C
+CUKY  통화 타입  통화단위가 들어가는 용도 USD KRW EUR   아밥타입 C
+
+SBOOK 테이블을 조회하겠다.
+
+NUMC 숫자로 구성된 문자를 넣는 용도 00이 앞에 붙어있는거 코드를 넣을때 아밥타입 N
+DATS   날짜를 넣는 용도   YYYY MM DD  아밥타입 D
+
+QUAN  측정할 수있는 것들을 넣는 용도 무게, 질량, 거리, 길이  소수점이 있는 숫자   아밥타입 P(Packed number)
+
+8자리고 Decimals Places 4자리다 하면 0000.0000 이렇게 소수점이 포함된 자리수를 의미한다.
+
+UNIT   측정하는거의 단위를 넣는 용도  KG G CM MI  아밥타입 C
+CURR   금액을 넣는 용도   소수점이 있는 숫자   아밥타입 P
+
+QUAN   UNIT 붙어있고
+CURR    CUKY 붙어있다. 
+단위라서 붙어있다.
+
+SPFLI   테이블을 조회
+
+INT4   숫자를 넣는 용도  아밥타입 I
+TIMS   시간을 넣는 용도  HH MM  SS 아밥타입 T
+
+INT1 INT2 INT4 INT8 사이즈가 다 정해져있다. 사이즈에 맞게 넣어주면 된다.
+
+ACCP   YYYYMM  몇년 몇월 조회할때 쓰는 용도
+DEC    소수점이 있는 숫자  아밥타입 P
+LANG   언어키를 넣는 용도 EN KO   
+STRING   긴 문자열을 넣는 용도  
+
+-------------------------------------------
+
+ALV를 출력해볼겁니다.
+
+abap alv example 구글링
+
+-----------------------------------------
+
+1. 필드  : 하나의 공간에 하나의 값만 들어간다.
+1) type c, type CHAR 아밥타입, 데이터타입으로 선언한거
+2) type dd03p-outputlen,  - 가 들어가면 필드 
+
+2. 행  : 필드들이 모여서 하나의 행
+1) structure라고 선언되어있는 구조를 가져올때
+2) begin of end of 로 묶어놓으면 행
+
+3. 테이블 : 한 행을 여러개 쌓을 수 있는 공간
+1) occurs 가 붙으면 무조건 테이블
+2) TYPE TABLE OF 가 붙으면 테이블
+STANDARD  95%  쓰기속도 빠르다 쌓고 수정이 빠르다
+SORTED  5%  자동으로 정렬해준다. 키가 필요하다.
+HASHED  0.1% 키를 찾아서 랜덤하게 들어가는 구조 읽는 속도 빠르다. 
+
+
+a(필드)   b    c
+--------------  행
+10  20  30
+-------------- 테이블
+10  20  30
+10  20  30
+10  20  30
+
+type은 오른쪽에 있는 구조를 복사한다. 왼쪽으로
+
+하나의 필드만 있는 행도 만들수있고 테이블도 만들수있다.
+
+a
+---
+1
+2
+3
+4
+5
+
+like    like c  like char 이거 안됩니다. 나머지는 똑같다.
+type   헷갈리면 type만 써도 된다.
+
+
+types: begin of slis_fieldcat_main.
+include type slis_fieldcat_main0.
+include type slis_fieldcat_main1.
+types: end of slis_fieldcat_main.
+
+매행마다 점을 찍어줘야한다.
+include type은
+
+
+DATA  프로그램내에서 인식할 수 있다.
+TYPES  구조만 선언한거고 프로그램내에서 인식이 안되요.
+
+주석처리 컨트롤 쉼표
+주석해제 컨트롤 마침표
+
+fieldname   seltext m    col pos    outputlen
+-------------------------------------------------
+
+-------------------------------------------------
+EBELN        purchase     0               10
+
+-------------------------------------------
+ALV 레포트를 
+
+spfli
+
+carrid
+connid  
+fltime
+deptime
+distance
+distid
+
+ => numc 필드는 00이 앞에 안나오는데 이걸 해결해봐라
+
+구글링을 해보면 나오는데
+
+  fieldcatalog-fieldname   = 'CARRID'.
+  fieldcatalog-seltext_m   = 'Airline Code'.
+  fieldcatalog-col_pos     = 1.
+  APPEND fieldcatalog TO fieldcatalog.
+  CLEAR  fieldcatalog.
+
+sbook 
+sflight 
+
+과제게시판에 인증샷 남기는거
+
+디버깅
+원리
+
+조회화면 들어갈거다.
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
