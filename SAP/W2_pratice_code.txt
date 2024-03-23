@@ -1,0 +1,22 @@
+type : begin of t scarr,
+	mandt type scarr-mandt,
+	carrid type scarr-carrid,
+	carrname type scarr-carrname,
+	currcode type scarr-currcode,
+	url type scarr-url,
+end of t scarr.
+
+data : it scarr type standard table of t scarr intial size 0,
+	wa scarr type t scarr. 
+
+START-OF-SELECTION.
+
+	PERFORM data retrieval.
+
+따라들어가서 
+FORM data retrieval	
+	DATA : Id color(1) TYPE c.
+	
+	SELECT mandt carried carrname currcode url
+	  *UP TO 10 ROWS
+		FROM 
